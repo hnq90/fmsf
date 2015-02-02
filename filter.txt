@@ -961,7 +961,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtube.com/gen_*?a=resolution&width=*
 ||zaloapp.com^$third-party
 ||zedo.com^
-! Add Facebook Filters 20150201
+! Add Facebook Filters 201502020941
 ! Right sidebar
 ! Various suggestions/recommendations
 facebook.com##.home_right_column .ego_column.egoOrganicColumn
