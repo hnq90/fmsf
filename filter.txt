@@ -3,8 +3,9 @@
 ! Title: FMSF 2.0
 ! Expires: 2 days
 ! Version: 2.0
-! Last modified: 1/2/2015 11:15 AM GMT+7
+! Last modified: 2/2/2015 10:07 AM GMT+7
 ! ============================== Different ====================================
+oxforddictionaries.com#@#[class^="ad_"]
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
 blogtruyen.com###menu + *
@@ -56,7 +57,9 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+||google.com/pagead/*
 */adsfloat/*
+@@||thanhnien.com.vn/PublishingImages*/banner
 ! ============================== Like and Share FB ============================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -602,7 +605,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bongdatructuyen.info/js/pop2web*
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.vn/js/jquery.fancybox/*
-||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.us|bongdainfo.com
+||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.us|bongdainfo.com|www.kenh1.info
 ||buysellads.com^
 ||cachnuoicon.net^$popup,third-party
 ||cafecuoi.net/vote$popup
@@ -745,7 +748,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||lp.longtailvideo.com/5/ova/ova-jw.swf
 ||luckytravelshop.info^
 ||luminate.com^
-||m-viet.com^$popup
+||m-viet.com^$popup,third-party
 ||m88so.com^$popup,third-party
 ||media.foody.vn/biz_banner/
 ||media.giadinhonline.vn/flash/*
