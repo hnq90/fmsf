@@ -3,8 +3,9 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-02-02T05:45:32-05:00
+! Last modified: 2015-02-03T01:00:03-05:00
 ! ============================== Different ====================================
+tivi24h.com###HTML9
 oxforddictionaries.com#@#[class^="ad_"]
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
@@ -40,7 +41,7 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||cvt.vn/images/*quangcao.gif
 ||dj.net.vn^$third-party
 ||donghohoangkim.vn^$domain=phienbanmoi.com
-||googleusercontent.com^$image,domain=thiendia.com|www.tivi24h.com|cvt.vn
+||googleusercontent.com^$image,domain=thiendia.com|tivi24h.com|cvt.vn
 ||hotso1.com^$third-party
 ||img.thiendia.com/*.gif
 ||infogame.vn/*swf
@@ -57,6 +58,8 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+@@||downloadmaxspeed.net/js/jquery.magnific-popup.min.js
+||trollbongda.com/*.swf
 ||google.com/pagead/*
 */adsfloat/*
 @@||thanhnien.com.vn/PublishingImages*/banner
@@ -453,7 +456,6 @@ youtube.com##.start.end
 @@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
 @@||forum.gamevn.com/banner/*
 @@||galaxycine.vn/files/upload/banner/*
-@@||getlinkfshare.net/js/jquery.magnific-popup.min.js
 @@||hanoicomputer.vn/media/banner/banner_
 @@||hdonline.vn/frontend/ads/video
 @@||image.mp3.zdn.vn/banner/*
@@ -605,7 +607,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bongdatructuyen.info/js/pop2web*
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.vn/js/jquery.fancybox/*
-||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.us|bongdainfo.com|www.kenh1.info
+||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.us|bongdainfo.com|kenh1.info
 ||buysellads.com^
 ||cachnuoicon.net^$popup,third-party
 ||cafecuoi.net/vote$popup
@@ -689,7 +691,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||giaitri72.com^$third-party
 ||gigya.com^
 ||girlxinh.gocchiase.vn^$popup,third-party
-||goo.gl^$popup,domain=www.xn--vitsimpletv-t69e.vn|blogtruyen.com
+||goo.gl^$popup,domain=xn--vitsimpletv-t69e.vn|blogtruyen.com
 ||google-analytics.com^
 ||google.com/*+1/*
 ||google.com/ads*
@@ -714,7 +716,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hiplair.com^$domain=mediafire.com
 ||histats.com^
 ||horsered.com^
-||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|www.xemtiviso.com|tructiepbongda.com
+||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|xemtiviso.com|tructiepbongda.com
 ||igo.5giay.vn/changebanner/mBanner
 ||imageporter.com/main.css
 ||img.hayhaytv.com/adsbanner/*
