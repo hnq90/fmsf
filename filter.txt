@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-02-03T11:16:30+07:00
+! Last modified: 2015-02-05T10:06:38+07:00
 ! ============================== Different ====================================
 tivi24h.com###HTML9
 oxforddictionaries.com#@#[class^="ad_"]
@@ -58,6 +58,8 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+@@/conversations/popup?*
+@@/account/alerts-popup?*
 @@||downloadmaxspeed.net/js/jquery.magnific-popup.min.js
 ||trollbongda.com/*.swf
 ||google.com/pagead/*
@@ -806,7 +808,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||plarium.com^$popup
 ||platform.twitter.com/widgets
 ||plugrush.com^
-||plus.google.com/js/client:plusone.js
 ||polyad.net^
 ||popads.net^
 ||popcash.net^
