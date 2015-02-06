@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-02-05T01:00:03-05:00
+! Last modified: 2015-02-06T01:00:02-05:00
 ! ============================== Different ====================================
 tivi24h.com###HTML9
 oxforddictionaries.com#@#[class^="ad_"]
@@ -58,6 +58,7 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+|http://u.to^$popup,domain=việtsimpletv.vn
 @@/conversations/popup?*
 @@/account/alerts-popup?*
 @@||downloadmaxspeed.net/js/jquery.magnific-popup.min.js
@@ -669,7 +670,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||effectivemeasure.net^
 ||eqads.com^
 ||ertosatie.com^
-||exoclick.com^$script,popup
+||exoclick.com^$script,image,stylesheet,popup
 ||exponential.com^
 ||extreme-dm.com^$third-party
 ||fakebook.vn^$popup
