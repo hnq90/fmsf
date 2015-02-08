@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-02-07T01:00:02-05:00
+! Last modified: 2015-02-08T01:00:03-05:00
 ! ============================== Different ====================================
 tivi24h.com###HTML9
 oxforddictionaries.com#@#[class^="ad_"]
@@ -15,7 +15,7 @@ comicvn.net##.modal-backdrop
 comicvn.net##[class^="banner"]
 comicvn.net##[id^="banner"]
 cvt.vn###block_html_1
-hamtruyen.com###banner_float_left
+hamtruyen.com###ballon_left
 kissanime.com#@#[id^="ads"]
 playpark.vn##.hadvbanner
 playpark.vn##[id$="RBanner"]
