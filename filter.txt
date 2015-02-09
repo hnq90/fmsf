@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-02-08T01:00:03-05:00
+! Last modified: 2015-02-09T01:00:02-05:00
 ! ============================== Different ====================================
 tivi24h.com###HTML9
 oxforddictionaries.com#@#[class^="ad_"]
@@ -58,6 +58,8 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+||adf.ly^$third-party
+||aad73c550c.se/?*$popup
 |http://u.to^$popup,domain=việtsimpletv.vn
 @@/conversations/popup?*
 @@/account/alerts-popup?*
@@ -538,7 +540,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||addons.mozilla.org/en-US/firefox/i/promos?*
 ||addthis.com^
 ||addtoany.com^
-||adf.ly/puopen.php?*$popup
 ||adfox.vn^
 ||adi.vcmedia.vn^
 ||adjuggler.net^
@@ -553,7 +554,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adonly.com^
 ||adprotected.com^
 ||adroll.com^
-||adrotator.se^
+||adrotator.se^$popup,script,image,stylesheet
 ||adsafeprotected.com^
 ||adserve.postrelease.com^
 ||adserver.muaban.net^
@@ -670,7 +671,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||effectivemeasure.net^
 ||eqads.com^
 ||ertosatie.com^
-||exoclick.com^$script,image,stylesheet,popup
+||exoclick.com^$popup,script,image,stylesheet
 ||exponential.com^
 ||extreme-dm.com^$third-party
 ||fakebook.vn^$popup
