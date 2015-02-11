@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-02-10T01:00:03-05:00
+! Last modified: 2015-02-11T01:00:02-05:00
 ! ============================== Different ====================================
 tivi24h.com###HTML9
 oxforddictionaries.com#@#[class^="ad_"]
@@ -733,7 +733,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||innity.net^
 ||insta-cash.net^
 ||intellitxt.com^
-||interactions.vnexpress.net^
 ||invitemedia.com^
 ||ismcorp.vn^
 ||jscount.com^
