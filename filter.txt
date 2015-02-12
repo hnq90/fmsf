@@ -3,10 +3,8 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-02-11T01:00:02-05:00
+! Last modified: 2015-02-12T01:00:03-05:00
 ! ============================== Different ====================================
-tivi24h.com###HTML9
-oxforddictionaries.com#@#[class^="ad_"]
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
 blogtruyen.com###menu + *
@@ -17,6 +15,7 @@ comicvn.net##[id^="banner"]
 cvt.vn###block_html_1
 hamtruyen.com###ballon_left
 kissanime.com#@#[id^="ads"]
+oxforddictionaries.com#@#[class^="ad_"]
 playpark.vn##.hadvbanner
 playpark.vn##[id$="RBanner"]
 stardaily.vn##.logowidget
@@ -25,6 +24,7 @@ thamhue.com.vn###sidebar
 thamhue.com.vn###vsa_fh_stats table tr:first-child td:last-child
 thamhue.com.vn##.body_wrapper > div[align="center"]
 thiendia.com###posts > div:first-child > br + *
+tivi24h.com###HTML9
 viettorrent.vn##.col-md-12 > center
 vivo.vn##.banner_a.banner_bg_e
 xembongda24h.com###cotphai
@@ -58,22 +58,13 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
-||adf.ly^$third-party
-||aad73c550c.se/?*$popup
-|http://u.to^$popup,domain=việtsimpletv.vn
-@@/conversations/popup?*
-@@/account/alerts-popup?*
-@@||downloadmaxspeed.net/js/jquery.magnific-popup.min.js
-||trollbongda.com/*.swf
-||google.com/pagead/*
-*/adsfloat/*
-@@||thanhnien.com.vn/PublishingImages*/banner
+@@||hdonline.vn/template/frontend/newtet/Hot-Banner.png
 ! ============================== Like and Share FB ============================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
 ||facebook.com/plugins/share_button.php?*
 ||facebook.com/v2.0/plugins/recommendations.php?*
-! ============================== Element Hiding ==============f================
+! ============================== Element Hiding ===============================
 ###bar_float
 ##.ad
 ##[class^="ad-"]
@@ -88,18 +79,12 @@ xemthethao.vn##.xtt-live-box-btn-left
 ##[id^="div-gpt-ad"]
 ##[id^='divAd']
 24h.com.vn###ReplayAd
-24h.com.vn###leftSideBar
 24h.com.vn###linkbg1
 24h.com.vn###linkbg2
-24h.com.vn###rightSideBar
 24h.com.vn###subRight
 24h.com.vn##.container .content .banner300250-R-trangtrong
 24h.com.vn##[class*="banner"]
-24h.com.vn##[id*="ADS_"]
-4shared.com##.antivirusBanner
-4shared.com##.hiddenshare
-4shared.com##.sharemore
-4shared.com##div[onclick="window.location='/premium.jsp?ref=removeads'"]
+4shared.com##[id^="epom"]
 5giay.vn###divBalloonAds
 5giay.vn###whats_going_on
 5giay.vn##.ss_rightcolumn_column
@@ -228,6 +213,8 @@ imageporter.com##DIV[style="position:relative;width:640px;margin-bottom:15px;"]
 kenh14.vn##.bodycontent.clearfix > .subheader
 kenh14.vn##.socialbox
 kenh60.net###content > DIV[style*="height: 100px;"]
+kenhtin360.com##.detail_content .textwidget
+kenhtin360.com##.detail_content > .left_detail > .header_detail > center
 kenhvl.net###videoloading
 kenhvl.net##.dvBannerMenu
 kenhvl.net##.dvCategoryBtnShare
@@ -405,6 +392,7 @@ youtube.com###watch7-sidebar-ads
 youtube.com##.start.end
 ! ========================== Ads, Popups and Trackers =========================
 */ad_manage/*
+*/adsfloat/*
 */adv/*
 */advertise/*
 */banner/*
@@ -446,6 +434,8 @@ youtube.com##.start.end
 /traffic.php
 /viettyping.js
 @@-ads.js?$domain=talktv.vn
+@@/account/alerts-popup?*
+@@/conversations/popup?*
 @@google-analytics.com^$domain=e.infogr.am
 @@imasdk.googleapis.com^
 @@thamhue.com/images/ads/lgthamhue1.gif
@@ -456,6 +446,7 @@ youtube.com##.start.end
 @@||bhdstar.vn/*movie-detail-popup*
 @@||blueserving.com/crossdomain.xml
 @@||cgv.vn/media/banner/cache/*
+@@||downloadmaxspeed.net/js/jquery.magnific-popup.min.js
 @@||foody.vn/biz_banner/*1000x
 @@||foody.vn/biz_banner/*foody-banner*
 @@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
@@ -471,8 +462,10 @@ youtube.com##.start.end
 @@||phongvu.vn/templates/vtpv/images/bg-popup.png
 @@||s.yimg.com/zz/combo?nq/s/a/style_*.css
 @@||skylink.vn^$domain=hdonline.vn
+@@||thanhnien.com.vn/PublishingImages*/banner
 @@||tinmoi.vn/ads/anninhtv/*
 @@||weather.channelvn.net^
+^ads-
 ^ads.
 ^ads_
 ^adx.php^
@@ -485,6 +478,7 @@ youtube.com##.start.end
 ^ptracking^
 ^quangcao.
 ^tracking.
+_ads.
 _ads^
 _banner.
 _banner_
@@ -496,6 +490,7 @@ searchTrack.php?
 tracking.ashx?action=*
 vbulletin_read_marker.js?*
 yts/swfbin/player-vfl*/ad*.swf
+|http://u.to^$popup,domain=vi?tsimpletv.vn
 ||118.69.168.115/PolyadsFile/*
 ||12betvn88.com^$popup
 ||12betwin.net^$popup
@@ -520,6 +515,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||5giay.vn/trangchu/support/support*.js
 ||7mad.7m.cn^
 ||9cc85d.se^
+||aad73c550c.se/?*$popup
 ||ad*.tinong.net^
 ||ad-*.24hstatic.com^
 ||ad.24h.com.vn^
@@ -540,6 +536,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||addons.mozilla.org/en-US/firefox/i/promos?*
 ||addthis.com^
 ||addtoany.com^
+||adf.ly^$third-party
 ||adfox.vn^
 ||adi.vcmedia.vn^
 ||adjuggler.net^
@@ -561,6 +558,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adshexa.com^
 ||adshost1.com^
 ||adshost2.com^
+||adshost3.com^
 ||adshostnet.com^
 ||adsonar.com^
 ||adsquangcao.com^
@@ -699,6 +697,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||google-analytics.com^
 ||google.com/*+1/*
 ||google.com/ads*
+||google.com/pagead/*
 ||googleadservices.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
@@ -906,6 +905,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tretrau.vn/include/widget/test.html
 ||tribalfusion.com^
 ||trklnks.com^
+||trollbongda.com/*.swf
 ||trollbongda.com/templates/troll/images/balloon_ad.gif
 ||tttd.vn$popup,third-party
 ||tuthienbao.com/*.swf
