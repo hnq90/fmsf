@@ -3,8 +3,14 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-01T01:00:04-05:00
+! Last modified: 2015-03-02T01:00:06-05:00
 ! ============================== Different ====================================
+||ad.ddestiny.ru^
+||adriver.ru^
+||195.82.146.52^$third-party
+||rutracker.org^$subdocument
+||dt00.net^$third-party
+||begun.ru^
 blogtruyen.com###leftAdsBanner
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
