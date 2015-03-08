@@ -3,26 +3,18 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-07T01:00:03-05:00
+! Last modified: 2015-03-08T01:00:04-05:00
 ! ============================== Different ====================================
-||ad.ddestiny.ru^
-||adriver.ru^
-||195.82.146.52^$third-party
-||rutracker.org^$subdocument
-||dt00.net^$third-party
-||begun.ru^
-blogtruyen.com###leftAdsBanner
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
+blogtruyen.com###leftAdsBanner
 blogtruyen.com###menu + *
-chotot.vn,crunchyroll.com#@#[class^="ad-"]
+clbgamesvn.com###contentMain center
 comicvn.net##.modal-backdrop
 comicvn.net##[class^="banner"]
 comicvn.net##[id^="banner"]
 cvt.vn###block_html_1
 hamtruyen.com###ballon_left
-kissanime.com#@#[id^="ads"]
-oxforddictionaries.com#@#[class^="ad_"]
 playpark.vn##.hadvbanner
 playpark.vn##[id$="RBanner"]
 stardaily.vn##.logowidget
@@ -40,7 +32,11 @@ xemthethao.vn###popupContact
 xemthethao.vn##.xtt-live-box-btn-left
 ||125.212.202.62/*.gif
 ||125.212.202.62/*.swf
+||195.82.146.52^$third-party
+||ad.ddestiny.ru^
+||adriver.ru^
 ||batdongsangroup.vn^$popup,third-party
+||begun.ru^
 ||bestfitnesscbproducts.com^$third-party
 ||blogtruyen.com/*.swf
 ||blogtruyen.com/Scripts/qctruot2ben.js
@@ -48,16 +44,19 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||cvt.vn/images/*quangcao.gif
 ||dj.net.vn^$third-party
 ||donghohoangkim.vn^$domain=phienbanmoi.com
+||dt00.net^$third-party
 ||googleusercontent.com^$image,domain=thiendia.com|tivi24h.com|cvt.vn
 ||hotso1.com^$third-party
 ||img.thiendia.com/*.gif
 ||infogame.vn/*swf
 ||ixinh.net^$popup,third-party
+||megabox.vn/megabox/video/Ipad.scene.720p.mp4
 ||phongcomputer.com^$third-party
 ||pictureshoster.com^$domain=thiendia.com
 ||playpark.vn/img/*.swf
 ||porn99.net^$third-party
 ||postimg.org/*.gif$domain=thiendia.com
+||rutracker.org^$subdocument
 ||thamhue.com.vn/ad/*
 ||thecheapest-travel.com^$third-party
 ||thiendia.com/slide/pop_in_bottom_page*
@@ -65,15 +64,17 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
-@@||hdonline.vn/template/frontend/tet2015/banner_km_
-||nhacso.net^$popup,third-party
-@@||api.adtimaserver.vn/zad/videoad?*
-@@||hdonline.vn/template/frontend/newtet/Hot-Banner.png
 ! ============================== Like and Share FB ============================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
 ||facebook.com/plugins/share_button.php?*
 ||facebook.com/v2.0/plugins/recommendations.php?*
+! ========================= Element Hiding Exception ==========================
+chotot.vn,crunchyroll.com#@#[class^="ad-"]
+eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
+kissanime.com#@#[id^="ads"]
+oxforddictionaries.com#@#[class^="ad_"]
+tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
 ! ============================== Element Hiding ===============================
 ###bar_float
 ##.ad
@@ -159,7 +160,6 @@ diadiem.com###divPopAdsPOI
 diadiem.com##.div_box_adv
 eva.vn###subLeftSuKienTieuDiem
 eva.vn##[class^="banner300250"]
-eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
 facebook.com###pagelet_side_ads
 facebook.com##[id^='PageAdsPagelet']
 foody.vn###float-header > div[style="height: 60px; "]
@@ -340,7 +340,6 @@ thegioitinhoc.vn##IFRAME[src*="thegioitinhoc.vn/ads/"]
 thethao247.vn###teaserads
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.topBanner
-tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
 tinmoi.vn###sharebox
 tinthethao.com.vn###letsop-sportgame
 tivi24h.com###bloggernotificationWrap
@@ -446,13 +445,13 @@ youtube.com##.start.end
 @@-ads.js?$domain=talktv.vn
 @@/account/alerts-popup?*
 @@/conversations/popup?*
-@@google-analytics.com^$domain=e.infogr.am
 @@imasdk.googleapis.com^
 @@thamhue.com/images/ads/lgthamhue1.gif
 @@videomega.tv/*/advertising.php*
 @@||adnetwork.vn^$domain=tv.tuoitre.vn
 @@||ads.tinmoi.vn^
 @@||api.adtimaserver.vn/crossdomain.xml
+@@||api.adtimaserver.vn/zad/videoad?*$domain=talktv.vn
 @@||bhdstar.vn/*movie-detail-popup*
 @@||blueserving.com/crossdomain.xml
 @@||cgv.vn/media/banner/cache/*
@@ -462,11 +461,15 @@ youtube.com##.start.end
 @@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
 @@||forum.gamevn.com/banner/*
 @@||galaxycine.vn/files/upload/banner/*
+@@||getlinkfshare.net/js/jquery.magnific-popup.min.js
 @@||hanoicomputer.vn/media/banner/banner_
 @@||hdonline.vn/frontend/ads/video
+@@||hdonline.vn/template/frontend/newtet/Hot-Banner.png
+@@||hdonline.vn/template/frontend/tet2015/banner_km_
 @@||image.mp3.zdn.vn/banner/*
 @@||img.hayhaytv.vn/advertise/20141205084938-banner-01.jpg
 @@||khuyenmaivang.vn/style/frontend/banner/*
+@@||media.vatgia.vn/banners/*
 @@||nv-ad.24hstatic.com/*.jpg
 @@||phongvu.vn/gallery/avatar_upload/ads/*.swf
 @@||phongvu.vn/templates/vtpv/images/bg-popup.png
@@ -497,6 +500,7 @@ ad.24hstatic.com^
 assets/pub/shareaholic*
 hitInfo.ashx?*
 searchTrack.php?
+talktv.vn###update-register-container
 tracking.ashx?action=*
 vbulletin_read_marker.js?*
 yts/swfbin/player-vfl*/ad*.swf
@@ -786,7 +790,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||netshelter.net^
 ||newrelic.com^
 ||ngoisao.net/widget/ns/widget.css
-||nhacso.net^$subdocument,domain=yan.vn
+||nhacso.net^$popup,third-party
 ||nology.vn^$third-party
 ||novanet.vn^
 ||novanetservice.com^
@@ -888,7 +892,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||stumbleupon.com^$third-party
 ||switchads.com^
 ||syngrestic.com^
-||t.hdviet.com/v2/css/popup-ads.css?*
 ||taifile.vn^$popup,third-party
 ||taigamevina.com^$popup,third-party
 ||taiiwin.net^
@@ -920,6 +923,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tttd.vn$popup,third-party
 ||tuthienbao.com/*.swf
 ||tuyensinh.*.edu.vn^$popup,third-party
+||tv.csmtalk.vcdn.vn/talktv_v2/resource/library/foobar/*.css
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/module/streaming/play/js/limit.js?*
 ||tvtructuyen.net/1adnova.html
 ||tvtructuyen.net/2lk.html
@@ -972,6 +976,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||yandex.ru^$third-party
 ||yceml.net^
 ||yllix.com^
+||yomedia.vn^
 ||youtube.com/api/stats/
 ||youtube.com/embed/Mf6XizCOtrk?*
 ||youtube.com/embed/VLz6bN1dImo?*
