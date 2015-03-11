@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-10T01:00:03-04:00
+! Last modified: 2015-03-11T01:00:03-04:00
 ! ============================== Different ====================================
 ||adsvn.ga^
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
@@ -65,6 +65,7 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+bongda60.com###floating
 ||lazada.go2cloud.org^$third-party
 ||hoiquantinhoc.vn/free_vps/*
 ||fptplay.net/static/js/ad_vast_new_skip.js
@@ -115,9 +116,7 @@ tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
 8bongda.com###wrapper-inner > DIV[style="float: center; margin: 10px;"]
 8bongda.com##A[style="margin-left: 1em; margin-right: 1em;"]
 8bongda.com##[id*="bd8adsheadline"]
-answers.yahoo.com###dmRosAdWrapper-MainNorth
-answers.yahoo.com###dmRosAdWrapper-MainSouth
-answers.yahoo.com###yahoo
+answers.yahoo.com##[id$="textads"]
 baodatviet.vn###ballon
 baodatviet.vn###divFooterBanner
 baodatviet.vn###divFooterTop
