@@ -3,8 +3,9 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-14T01:00:04-04:00
+! Last modified: 2015-03-15T01:00:06-04:00
 ! ============================== Different ====================================
+@@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||kay.com.vn/IndexBanner/*
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
@@ -66,13 +67,15 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+||chatwee-api.com^
+||linkneverdie.com/js/audio3_html5.js
 ! ============================== Like and Share FB ============================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
 ||facebook.com/plugins/share_button.php?*
 ||facebook.com/v2.0/plugins/recommendations.php?*
 ! ========================= Element Hiding Exception ==========================
-chotot.vn,crunchyroll.com#@#[class^="ad-"]
+chotot.vn,crunchyroll.com,xuanvinh.vn#@#[class^="ad-"]
 eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
 kissanime.com#@#[id^="ads"]
 oxforddictionaries.com#@#[class^="ad_"]
@@ -759,7 +762,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||lazada.vn^$third-party
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
-||linkshrink.net^
 ||linktocdo.com/hotro/hinhanh/*x*.gif
 ||linktocdo.com/hotro/hinhanh/banner*
 ||loading-delivery1.com^
