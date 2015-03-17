@@ -3,8 +3,9 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-16T01:00:03-04:00
+! Last modified: 2015-03-17T01:00:05-04:00
 ! ============================== Different ====================================
+@@||udemy.com/*-popup?*
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||kay.com.vn/IndexBanner/*
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
@@ -67,6 +68,10 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+@@||suzuki.com.vn/uploads/images/*banner-
+@@||yamaha-motor.com.vn/uploads/banners/*
+@@||honda.com.vn/files/*_banner_
+@@||twitter.com/i/profiles/popup?*
 ||chatwee-api.com^
 ||linkneverdie.com/js/audio3_html5.js
 ! ============================== Like and Share FB ============================
@@ -269,11 +274,8 @@ mybongda.com##[class$="banner"]
 mytv24h.mybongda.com###banner_FloatLeft
 neowin.net###mini_spy
 news.zing.vn###advBalloon
-news.zing.vn###product_ads
-news.zing.vn###promotedposts
 news.zing.vn###site-header
 news.zing.vn##.btnSocial
-news.zing.vn##.metabox
 news.zing.vn##[id*="adv"]
 nhac.vui.vn##.padTop5.padBot5
 nhaccuatui.com###HF
@@ -794,7 +796,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||netshelter.net^
 ||newrelic.com^
 ||ngoisao.net/widget/ns/widget.css
-||nhacso.net^$popup,third-party
+||nhacso.net^$popup,third-party,subdocument
 ||nology.vn^$third-party
 ||novanet.vn^
 ||novanetservice.com^
