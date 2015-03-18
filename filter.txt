@@ -3,8 +3,9 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-17T01:00:05-04:00
+! Last modified: 2015-03-18T01:00:04-04:00
 ! ============================== Different ====================================
+mupvl.us###advert-notice
 @@||udemy.com/*-popup?*
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||kay.com.vn/IndexBanner/*
@@ -54,7 +55,6 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||img.thiendia.com/*.gif
 ||infogame.vn/*swf
 ||ixinh.net^$popup,third-party
-||megabox.vn/megabox/video/Ipad.scene.720p.mp4
 ||phongcomputer.com^$third-party
 ||pictureshoster.com^$domain=thiendia.com
 ||playpark.vn/img/*.swf
@@ -68,6 +68,11 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+||megabox.vn/megabox/video/Ipad.scene.720p.mp4
+@@||thienthientan.vn/Upload/Banner/*
+@@/adsbygoogle.js$domain=hackintosh.zone
+||advert.com^
+/pop-ad.
 @@||suzuki.com.vn/uploads/images/*banner-
 @@||yamaha-motor.com.vn/uploads/banners/*
 @@||honda.com.vn/files/*_banner_
@@ -82,6 +87,7 @@ xemthethao.vn##.xtt-live-box-btn-left
 ! ========================= Element Hiding Exception ==========================
 chotot.vn,crunchyroll.com,xuanvinh.vn#@#[class^="ad-"]
 eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
+inbox.google.com#@#.ad
 kissanime.com#@#[id^="ads"]
 oxforddictionaries.com#@#[class^="ad_"]
 tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
@@ -158,7 +164,6 @@ chap.vn###cpmstar_anchor
 choimobile.vn###rightContentBox
 choimobile.vn##DIV[style="padding-bottom: 5px;"]
 chovinh.com##.sidebar > DIV[style^="width:300px"]
-congan.com.vn##[valign="top"][height="500"] > [cellpadding="0"][width="100%"] + TABLE[width="100%"]
 congan.com.vn##[width="400"] > TBODY > TR > TD[height="50"][align="center"]
 cpanel.freevnn.com###gettingstarted_win_c
 dailo.vn##.banner > .fr
@@ -218,17 +223,11 @@ hdvietnam.com###topbillboard
 hdvietnam.com##.sbanner
 hdvietnam.com##[id^="yamaha_ads"]
 heaveniphone.com##.thongbao
-heaveniphone.com##DIV[style$="position:fixed;width:120px;z-index:0;"]
 howtogeek.com###side78
 howtogeek.com##.adSystem_ads
 howtogeek.com##.overlay-bg
 htvonline.com.vn##.sticky_menu
 htvonline.com.vn##[id^="myModal-notification"]
-imageporter.com##.banner
-imageporter.com##.result_slot
-imageporter.com##.tbl1
-imageporter.com##DIV[style="margin-left: 1px;color:#444;font-size:12px;"]
-imageporter.com##DIV[style="position:relative;width:640px;margin-bottom:15px;"]
 kenh14.vn##.bodycontent.clearfix > .subheader
 kenh14.vn##.socialbox
 kenh60.net###content > DIV[style*="height: 100px;"]
@@ -321,10 +320,6 @@ softarchive.net##.topic_adv
 softpedia.com##.center_ad
 softpedia.com##.pagehead_h
 softpedia.com##TABLE[width="974"][height="100"]
-softvnn.com###floating
-softvnn.com###overPage
-softvnn.com##.yui-b.yui-sidebar
-softvnn.com##IFRAME[style="width: 1000px; height: 293px; background: none;"]
 sonyfan.vn##.qc-top
 talk.secafe.vn###headerProxy
 talk.secafe.vn##.hs-header-ad
@@ -342,7 +337,6 @@ thebox.vn###Div1.width_common.box_padding
 thebox.vn###ballon
 thebox.vn##[id*="_220x600"]
 thebox.vn##[id*="polyad"]
-thegioitinhoc.vn##IFRAME[src*="thegioitinhoc.vn/ads/"]
 thethao247.vn###teaserads
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.topBanner
@@ -361,9 +355,8 @@ tructiepbongda.com###text-9
 tuoitre.vn##.main > .block-share
 tuoitre.vn##[class^="block-ad"]
 tuthienbao.com###novanetzone4964
-tuthienbao.com##DIV[style="right:100px; width: 15px; no-repeat; position:fixed; TOP: 5px"]
 tuthienbao.com##TD[align="right"]
-tuthienbao.com##TD[style="border: 1px solid #FF9933; width: 300px; height:250px; background: none; align: center;"]
+tuthienbao.com##.fb-comments + TABLE[width="900px"]
 tv.101vn.com###right_float
 tv.101vn.com##.header
 tv.zing.vn###\5f right_socialbox
@@ -384,8 +377,9 @@ vnreview.vn###adventist_content
 vozforums.com##.middleads
 vozforums.com##TD[width="160"]
 vozforums.com##iframe[src^="http://www.youtube.com/"]
-vuiviet.us###banner_FloatRight
-vuiviet.us##DIV[style*="width:300px; height:150px; background:#ddd;"]
+vuiviet.com.vn###banner_FloatRight
+vuiviet.com.vn##.container.hidesmall
+vuiviet.com.vn##DIV[style*="width:300px; height:150px; background:#ddd;"]
 whitehat.vn###fanback
 xemphimso.com##.balloons-ck
 xemphimso.com##.xps_ads
@@ -398,7 +392,6 @@ yan.vn###ucFacebook200
 yan.vn###wrapper_banner_top
 yan.vn##.btnShareInside
 yan.vn##.container div[class*="dvHeight"]
-yan.vn##DIV[style*="images/cudem"]
 yan.vn##DIV[style*="images/like_yannews"]
 yan.vn##DIV[style^="border: 2px solid #ed2d2d;"]
 yeah1.com###like_detail
@@ -471,7 +464,7 @@ youtube.com##.start.end
 @@||getlinkfshare.net/js/jquery.magnific-popup.min.js
 @@||hanoicomputer.vn/media/banner/banner_
 @@||hayhaytv.vn/advertise/20141205084938-banner-01.jpg
-@@||hdonline.vn/ads/video?*
+@@||hdonline.vn/*/video?*
 @@||hdonline.vn/Hot-banner-HDO---ngay-vang.png
 @@||hdonline.vn/template/frontend/newtet/Hot-Banner.png
 @@||hdonline.vn/template/frontend/tet2015/banner_km_
@@ -628,7 +621,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bluecava.com^
 ||bluekai.com^
 ||blueserving.com^
-||bongda.com.vn/*.gif
 ||bongda.com.vn/ad*
 ||bongda.com.vn/letsop-banner
 ||bongda.com.vn/wp-content/*.swf
@@ -638,7 +630,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.vn/js/jquery.fancybox/*
 ||bongdatructuyen.vn/js/p0pundr.js
-||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.us|bongdainfo.com|kenh1.info|bongda60.com
+||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com
 ||buysellads.com^
 ||cachnuoicon.net^$popup,third-party
 ||cafecuoi.net/vote$popup
