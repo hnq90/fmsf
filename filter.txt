@@ -3,8 +3,10 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-21T01:00:05-04:00
+! Last modified: 2015-03-22T01:00:04-04:00
 ! ============================== Different ====================================
+@@*/WebtrethoTV/js/ads.js
+||trungtamtinhoc.edu.vn/inc/colorbox/*
 pes.vn##.body_wrapper > CENTER
 @@||kay.com.vn/IndexBanner/*
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
@@ -70,6 +72,9 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+||hdviet.com/v2/js/hdv.v2.event.min.js?*
+dantrivn.biz###div-ads-center
+zippyshare.com##.center_ad
 ! ============================== Like and Share FB ============================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -410,7 +415,7 @@ youtube.com##.start.end
 @@||adnetwork.vn^$domain=tv.tuoitre.vn
 @@||ads.tinmoi.vn^
 @@||api.adtimaserver.vn/crossdomain.xml
-@@||api.adtimaserver.vn/zad/videoad?*$domain=talktv.vn
+@@||api.adtimaserver.vn/zad/videoad?*
 @@||bhdstar.vn/*movie-detail-popup*
 @@||blueserving.com/crossdomain.xml
 @@||cgv.vn/media/banner/cache/*
@@ -874,7 +879,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tribalfusion.com^
 ||trklnks.com^
 ||trollbongda.com/*.swf
-||trollbongda.com/templates/troll/images/balloon_ad.gif
+||trollbongda.com/templates/troll/images/*.gif
 ||tttd.vn$popup,third-party
 ||tuthienbao.com/*.swf
 ||tuyensinh.*.edu.vn^$popup,third-party
