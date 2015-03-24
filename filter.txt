@@ -3,8 +3,10 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-23T01:00:03-04:00
+! Last modified: 2015-03-24T01:00:04-04:00
 ! ============================== Different ====================================
+||adultadworld.com^$popup
+||xemtvhd.com/logo/*$subdocument
 @@||tbcdn.cn/tb/tsrp/*$stylesheet,domain=s.taobao.com
 bongdatructuyen.vn###chatbox
 @@*/WebtrethoTV/js/ads.js
@@ -74,6 +76,8 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||viettorrent.vn/js/englishmap.js
 ! ============================== Extend =======================================
+||fptplay.net/static/mediaplayer/GTrackPlugin.swf
+/jquery.bpopup.min.js
 ||realmadrid.com.vn/img/m88.gif
 ||hdviet.com/v2/js/hdv.v2.event.min.js?*
 dantrivn.biz###div-ads-center
@@ -477,7 +481,7 @@ hitInfo.ashx?*
 searchTrack.php?
 tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
-|http://u.to^$popup,domain=vi?tsimpletv.vn
+|http://u.to^$popup,domain=vietcago.com
 ||118.69.168.115/PolyadsFile/*
 ||12betvn88.com^$popup
 ||12betwin.net^$popup
@@ -684,7 +688,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||giaitri72.com^$third-party
 ||gigya.com^
 ||girlxinh.gocchiase.vn^$popup,third-party
-||goo.gl^$popup,domain=xn--vitsimpletv-t69e.vn|blogtruyen.com
+||goo.gl^$popup,domain=blogtruyen.com
 ||google-analytics.com^
 ||google.com/*+1/*
 ||google.com/ads*
