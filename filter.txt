@@ -3,9 +3,13 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-24T01:00:04-04:00
+! Last modified: 2015-03-25T01:00:03-04:00
 ! ============================== Different ====================================
-||adultadworld.com^$popup
+||rarenok.biz^
+||rmbn.net^
+||realer.info^
+||thongdiepso.com^$third-party
+@@||195.82.146.52/logo/logo.gif
 ||xemtvhd.com/logo/*$subdocument
 @@||tbcdn.cn/tb/tsrp/*$stylesheet,domain=s.taobao.com
 bongdatructuyen.vn###chatbox
@@ -44,7 +48,7 @@ xemthethao.vn###popupContact
 xemthethao.vn##.xtt-live-box-btn-left
 ||125.212.202.62/*.gif
 ||125.212.202.62/*.swf
-||195.82.146.52^$subdocument
+||195.82.146.52^
 ||ad.ddestiny.ru^
 ||adriver.ru^
 ||adsvn.ga^
@@ -434,7 +438,7 @@ youtube.com##.start.end
 @@||galaxycine.vn/files/upload/banner/*
 @@||getlinkfshare.net/js/jquery.magnific-popup.min.js
 @@||hanoicomputer.vn/media/banner/banner_
-@@||hayhaytv.vn/advertise/20141205084938-banner-01.jpg
+@@||hayhaytv.vn/advertise/*-hayhayTV.jpg
 @@||hdonline.vn/*/video?*
 @@||hdonline.vn/Hot-banner-HDO---ngay-vang.png
 @@||hdonline.vn/template/frontend/newtet/Hot-Banner.png
@@ -704,8 +708,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||haivk.net^$third-party
 ||halophim.net^$popup,third-party
 ||haycuoi.com/css/ad.css
-||hayhaytv.com/layout/css/fancybox/*
-||hayhaytv.vn/user/tracking
 ||hayhaytv.vn/vod/*
 ||hdonline.vn/frontend/wiget/*
 ||hdonline.vn/pop-up-
