@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-29T01:00:05-04:00
+! Last modified: 2015-03-30T01:00:04-04:00
 ! ============================== Different ====================================
 @@*/WebtrethoTV/js/ads.js
 @@||195.82.146.52/logo/logo.gif
@@ -83,6 +83,9 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||viettorrent.vn/js/englishmap.js
 ||xemtvhd.com/logo/*$subdocument
 ! ============================== Extend =======================================
+@@||megabox.vn/ads-banner_*
+||thethaotv.vn^$third-party
+||mobiad.yestech.vn^$third-party
 hdonline.vn##[class*="filminfo-float"]
 hdonline.vn###tapchisaoAdsComment
 ||tapchisao.vn^$third-party
@@ -347,7 +350,6 @@ vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 vozforums.com##.middleads
 vozforums.com##TD[width="160"]
-vozforums.com##iframe[src^="http://www.youtube.com/"]
 vuiviet.com.vn###banner_FloatRight
 vuiviet.com.vn##.container.hidesmall
 vuiviet.com.vn##DIV[style*="width:300px; height:150px; background:#ddd;"]
@@ -686,7 +688,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||foody.vn/biz_banner/
 ||forum.bkav.com.vn/images/Bkav_Smarthome/*
 ||fptplay.net/static/js/ad_vast_new_skip.js
-||fptplay.net/static/mediaplayer/GTrackPlugin.swf
+/GTrackPlugin.swf
 ||fshare.vn/*/ad
 ||fulldl.net^
 ||galaxypub.vn^$third-party,~image
@@ -796,7 +798,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||pcworld.com.vn/files/advertising/*
 ||phcarevietnam.com.vn^$third-party
 ||phienbanmoi.com/popup1.js
-||phim3s.net/js/light/light.js?*
 ||phim69.us^$third-party
 ||phimchieurap.vn/promo/
 ||phimmoi.net^$third-party
@@ -929,8 +930,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||vnreview.vn/play-clip/*
 ||vnwebgame.com^$popup
 ||vozforums.com/clientscript/vbulletin_lightbox.js?*
-||vozforums.com/images/buttons/collapse
-||vozforums.com/images/gradients/gradient_*.gif
 ||vozforums.com/specials/*
 ||vozforums.com/vbdev/*
 ||vuonggiathienha.com^$popup
