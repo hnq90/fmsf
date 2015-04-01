@@ -3,8 +3,11 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-03-31T01:00:03-04:00
+! Last modified: 2015-04-01T01:00:03-04:00
 ! ============================== Different ====================================
+@@||forum.ketqua.net/styles/*/banner.jpg
+ketqua.net##.float-qc-left
+||upsieutoc.com^$domain=ketqua.net
 @@*/WebtrethoTV/js/ads.js
 @@||195.82.146.52/logo/logo.gif
 @@||kay.com.vn/IndexBanner/*
@@ -83,6 +86,8 @@ xemthethao.vn##.xtt-live-box-btn-left
 ||viettorrent.vn/js/englishmap.js
 ||xemtvhd.com/logo/*$subdocument
 ! ============================== Extend =======================================
+||tinxahoi24.info^$third-party
+||tintructuyen1.info^$third-party
 @@||megabox.vn/ads-banner_*
 ||thethaotv.vn^$third-party
 ||mobiad.yestech.vn^$third-party
@@ -727,7 +732,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||histats.com^
 ||hoiquantinhoc.vn/free_vps/*
 ||horsered.com^
-||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|xemtiviso.com|tructiepbongda.com|bongdatv.net
+||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|xemtiviso.com|tructiepbongda.com|bongdatv.net|forum.ketqua.net
 ||igo.5giay.vn/changebanner/mBanner
 ||imageporter.com/main.css
 ||infolinks.com^
