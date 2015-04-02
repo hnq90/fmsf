@@ -3,13 +3,15 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-01T01:00:03-04:00
+! Last modified: 2015-04-02T01:00:05-04:00
 ! ============================== Different ====================================
+@@||hplus.com.vn/*/banner/*
+@@||2o7fansub.com/banner/*
 @@||forum.ketqua.net/styles/*/banner.jpg
 ketqua.net##.float-qc-left
 ||upsieutoc.com^$domain=ketqua.net
 @@*/WebtrethoTV/js/ads.js
-@@||195.82.146.52/logo/logo.gif
+@@||195.82.146.52/logo/*
 @@||kay.com.vn/IndexBanner/*
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=vivo.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
@@ -625,7 +627,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.vn/js/jquery.fancybox/*
 ||bongdatructuyen.vn/js/p0pundr.js
-||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com
+||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|blogtruyen.com|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|phimhd.vn
 ||buysellads.com^
 ||cachnuoicon.net^$popup,third-party
 ||cafecuoi.net/vote$popup
