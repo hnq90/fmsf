@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-04T01:00:03-04:00
+! Last modified: 2015-04-05T01:00:05-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -36,8 +36,6 @@ tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
 24h.com.vn###ReplayAd
 24h.com.vn###linkbg1
 24h.com.vn###linkbg2
-24h.com.vn###subRight
-24h.com.vn##.container .content .banner300250-R-trangtrong
 24h.com.vn##[class*="banner"]
 4shared.com##[id^="epom"]
 5giay.vn###divBalloonAds
@@ -194,11 +192,7 @@ news.zing.vn##.btnSocial
 news.zing.vn##[id*="adv"]
 nhac.vui.vn##.padTop5.padBot5
 nhaccuatui.com###HF
-nhaccuatui.com###eventBannerLeft
-nhaccuatui.com###eventBannerTop
 nhaccuatui.com##[class*="adv_home"]
-nhaccuatui.com##[id^="banner-"]
-nhaccuatui.com##[style*="position:fixed"]
 notebookitalia.it##.block1a.unit
 pastebin.com##[class^="banner_"]
 pcworld.com.vn##.pc-adv-local-2
@@ -248,9 +242,8 @@ techrum.vn##.sharePage
 techrum.vn##[id*="SliderBanner"]
 techz.vn###right-top-ads
 thamhue.com###sidebar
-thamhue.com.vn###sidebar
-thamhue.com.vn###vsa_fh_stats table tr:first-child td:last-child
-thamhue.com.vn##.body_wrapper > div[align="center"]
+thamhue.vn,thamhue.com.vn###sidebar
+thamhue.vn,thamhue.com.vn###vsa_fh_stats table tr:first-child td:last-child
 thanhnien.com.vn##.qc-Container.bg-Container
 thebox.vn###Div1.width_common.box_padding
 thebox.vn###ballon
@@ -271,6 +264,7 @@ torviet.com###leftBanner1Ky
 torviet.com###rightBanner1Ky
 tructiepbongda.com###text-8
 tructiepbongda.com###text-9
+truyen18.org##.pr-widget
 tuoitre.vn##.main > .block-share
 tuoitre.vn##[class^="block-ad"]
 tuthienbao.com###novanetzone4964
@@ -461,14 +455,16 @@ yts/swfbin/player-vfl*/ad*.swf
 ||195.82.146.52^
 ||210.211.108.201:81/jsads/*
 ||24game.vn^$popup
+||24h-ad.24hstatic.com^
 ||24h.com.vn/upload/*background
 ||24h.com.vn/upload/*banner
 ||24h.com.vn/upload/*bg
 ||24h.com.vn/upload/*lazada
 ||24hstatic.com/*qcao/*
+||24hstatic.com/upload/*-mailisa*
 ||24hstatic.com/upload/*background
 ||24hstatic.com/upload/*bg
-||24hstatic.com^*lazada
+||24hstatic.com/*lazada
 ||360game.vn^$popup
 ||360hot.vn^
 ||360kpop.com/*.swf
@@ -485,9 +481,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||9cc85d.se^
 ||aad73c550c.se/?*$popup
 ||ad*.tinong.net^
-||ad-*.24hstatic.com^
+||ad*m.com^
 ||ad.24h.com.vn^
-||ad.24hstatic.com^
 ||ad.5imedia.vn^
 ||ad.ddestiny.ru^
 ||ad.mcdn.vn^
@@ -510,8 +505,10 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adf.ly^$third-party
 ||adfox.vn^
 ||adi.vcmedia.vn^
+||adit-media.com^
 ||adjuggler.net^
 ||adk2.com^
+||adk2x.com^
 ||adlike.net^$popup
 ||adlite.net^
 ||admicro1.vcmedia.vn^
@@ -520,6 +517,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adnexus.vn^
 ||adnxs.com^
 ||adonly.com^
+||adpdx.com^
+||adproper.info^
 ||adprotected.com^
 ||adrich.cash^
 ||adriver.ru^
@@ -528,10 +527,12 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adsafeprotected.com^
 ||adserve.postrelease.com^
 ||adserver.muaban.net^
+||adservingsolutionsinc.com^
 ||adshexa.com^
 ||adshost*.com^
 ||adsonar.com^
 ||adsquangcao.com^
+||adsterra.com^
 ||adsupply.com^
 ||adsvids.com^
 ||adsvn.ga^
@@ -552,7 +553,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||akanetwork.com^
 ||alexa.com^$third-party
 ||amazon-adsystem.com^
-||amazonaws.com/publisher_configurations.shareaholic/*
 ||amung.us^
 ||anthill.vn^
 ||api.nas.nct.vn/crossdomain.xml
@@ -667,6 +667,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||gamesupport.vn/js/rellect/AdblockDetector/*
 ||gammaplatform.com/js/ad-exchange.js
 ||genericsteps.com^
+||get.*.website^
 ||giacaphe.com/wp-content/themes/gcp/js/fb/giacaphe-like.js
 ||giaiphapexcel.com/qcao/*
 ||giaitri72.com^$third-party
@@ -771,6 +772,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||openx.org^
 ||optimizely.com^
 ||padstm.com^
+||pagefair.com^
 ||paragonads.vn^
 ||pcworld.com.vn/files/advertising/*
 ||phcarevietnam.com.vn^$third-party
@@ -822,6 +824,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||realmadrid.com.vn/img/bg*
 ||realmadrid.com.vn/img/m88.gif
 ||rev2pub.com^
+||reviveservers.com^
 ||revsci.net^
 ||riverbanksand.com^
 ||rmbn.net^
@@ -849,8 +852,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||st.kul.vn/adx/*
 ||statcounter.com^
 ||staticpress.vcmedia.vn/*.swf
-||stc.nas.nixcdn.com/upload/*$image,domain=nhaccuatui.com
-||stc.nas.nixcdn.com^$object,domain=nhaccuatui.com
+||stc.nas.nixcdn.com^$domain=nhaccuatui.com
 ||stumble-upon.com^
 ||stumbleupon.com^$third-party
 ||switchads.com^
@@ -865,9 +867,10 @@ yts/swfbin/player-vfl*/ad*.swf
 ||taobao.com^$subdocument,domain=soduso.com
 ||tapchisao.vn^$third-party
 ||thamhue.com.vn/ad/*
+||thamhue.vn/ad/*
 ||thecheapest-travel.com^$third-party
 ||thethaotv.vn^$third-party
-||thiendia.com/slide/pop_in_bottom_page*
+||thiendia.com/slide/pop_in_bottom_page.*
 ||thoibaovn.com/pop.js
 ||thongdiepso.com^$third-party
 ||thongke.24h.com.vn^
@@ -904,7 +907,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tynt.com^
 ||uniad.vn^
 ||unibet.com^$third-party
-||up-anh.ssc.vn^$domain=thamhue.com.vn
+||up-anh.ssc.vn^$domain=thamhue.com.vn|thamhue.vn
 ||upanh123.com^$popup,third-party
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
 ||upsieutoc.com^$domain=ketqua.net
@@ -915,7 +918,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||vdoc.vn^$third-party
 ||vietad.vn^
 ||vietnamnetad.vn^
-||viettorrent.vn/js/englishmap.js
 ||viglink.com^	
 ||vkool.net/js/pov.js
 ||vnreview.vn/*/sh_
@@ -949,15 +951,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtube.com/gen_*?a=resolution&width=*
 ||zaloapp.com^$third-party
 ||zedo.com^
-||adit-media.com^
-||adpdx.com^
-||adproper.info^
-||ad*m.com^
-||adservingsolutionsinc.com^
-||adsterra.com^
-||reviveservers.com^
-||get.*.website^
-||adk2x.com^
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
