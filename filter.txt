@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-05T01:00:05-04:00
+! Last modified: 2015-04-06T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -900,7 +900,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tttd.vn$popup,third-party
 ||tuthienbao.com/*.swf
 ||tuyensinh.*.edu.vn^$popup,third-party
-||tv.csmtalk.vcdn.vn/talktv_v2/resource/library/foobar/*.css
+||tv.csmtalk.vcdn.vn/talktv_v2/resource/*foobar.*
 ||tv.csmtalk.vcdn.vn/talktv_v2/resource/module/streaming/play/js/limit.js?*
 ||tvtructuyen.net/2lk.html
 ||tvtructuyen.net/4lk.html
