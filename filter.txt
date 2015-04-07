@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-06T01:00:04-04:00
+! Last modified: 2015-04-07T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -29,7 +29,7 @@
 chotot.vn,crunchyroll.com,xuanvinh.vn#@#[class^="ad-"]
 eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
-yeah1.com,kissanime.com#@#[id^="ads"]
+yeah1.com,x-rates.com,kissanime.com#@#[id^="ads"]
 oxforddictionaries.com#@#[class^="ad_"]
 tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
 ! ========================== Element Hiding Per Site ==========================
@@ -304,7 +304,7 @@ yan.vn###ucFacebook200
 yan.vn###wrapper_banner_top
 yan.vn##.btnShareInside
 yan.vn##.container div[class*="dvHeight"]
-yan.vn##DIV[style*="images/like_yannews"]
+yan.vn##DIV[style*="images/cudem"]
 yan.vn##DIV[style^="border: 2px solid #ed2d2d;"]
 yeah1.com##.tn-sharepost.hh-sharepost
 youtube.com###feed-pyv-container
@@ -354,6 +354,7 @@ zippyshare.com##.center_ad
 /jquery.smart*banner.
 /piwik.js
 /pop-ad.
+/pop.js
 /popup.js
 /popup1.js
 /popup2.js
@@ -389,7 +390,6 @@ tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 @@*/WebtrethoTV/js/ads.js
-@@-ads.js?$domain=talktv.vn
 @@/account/alerts-popup?*
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/conversations/popup?*
@@ -398,7 +398,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@videomega.tv/*/advertising.php*
 @@||195.82.146.52/logo/*
 @@||2o7fansub.com/banner/*
-@@||adnetwork.vn^$domain=tv.tuoitre.vn
+@@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn
 @@||ads.tinmoi.vn^
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/videoad?*
@@ -412,7 +412,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||forum.gamevn.com/banner/*
 @@||forum.ketqua.net/styles/*/banner.jpg
 @@||galaxycine.vn/files/upload/banner/*
-@@||getlinkfshare.net/js/jquery.magnific-popup.min.js
 @@||hanoicomputer.vn/media/banner/banner_
 @@||hayhaytv.vn/advertise/*-hayhayTV.jpg
 @@||hdonline.vn/*/video?*
@@ -433,7 +432,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||photoservice.goplay.vn/Resources/Upload/Images/Banner/*$domain=cs.go.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
 @@||s.yimg.com/zz/combo?nq/s/a/style_*.css
-@@||skylink.vn^$domain=hdonline.vn
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||suzuki.com.vn/uploads/images/*banner-
 @@||tbcdn.cn/tb/tsrp/*$stylesheet,domain=s.taobao.com
@@ -445,6 +443,9 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||udemy.com/*-popup?*
 @@||weather.channelvn.net^
 @@||yamaha-motor.com.vn/uploads/banners/*
+@@||cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js$domain=tiki.vn
+@@||tikicdn.com/media/custom/banners/resize/*_center_banner/*
+@@||tikicdn.com/media/custom/banners/resize/home_top_bannerv3/File-*
 ! ====================== Third-party adverts and trackers =====================
 |http://u.to^$popup,domain=vietcago.com
 ||118.69.168.115/PolyadsFile/*
@@ -658,7 +659,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||feedjit.com^
 ||fmpub.net^
 ||foody.vn/biz_banner/
-||forum.bkav.com.vn/images/Bkav_Smarthome/*
 ||fptplay.net/static/js/ad_vast_new_skip.js
 ||fshare.vn/*/ad
 ||fulldl.net^
@@ -693,7 +693,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hayhaytv.vn/vod/*
 ||hdonline.vn/frontend/wiget/*
 ||hdonline.vn/pop-up-
-||hdonline.vn/template/frontend/*noel*
 ||hdviet.com/v2/js/hdv.v2.event.min.js?*
 ||hdvietnam.com/adsx/*
 ||hihe.vn^$third-party
@@ -703,7 +702,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hotso1.com^$third-party
 ||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|xemtiviso.com|tructiepbongda.com|bongdatv.net|forum.ketqua.net
 ||igo.5giay.vn/changebanner/mBanner
-||imageporter.com/main.css
 ||img.thiendia.com/*.gif
 ||infogame.vn/*swf
 ||infolinks.com^
@@ -733,8 +731,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||luckytravelshop.info^
 ||luminate.com^
 ||m-viet.com^$popup,third-party
-||m88sb.com^$popup,third-party
-||m88so.com^$popup,third-party
+||m88*.com^$popup,third-party
 ||mediafire.com/blank.html
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
@@ -849,7 +846,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||sosmart.vn^$third-party
 ||spotxchange.com^
 ||st.game.thanhnien.com.vn^
-||st.kul.vn/adx/*
 ||statcounter.com^
 ||staticpress.vcmedia.vn/*.swf
 ||stc.nas.nixcdn.com^$domain=nhaccuatui.com
@@ -871,7 +867,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||thecheapest-travel.com^$third-party
 ||thethaotv.vn^$third-party
 ||thiendia.com/slide/pop_in_bottom_page.*
-||thoibaovn.com/pop.js
 ||thongdiepso.com^$third-party
 ||thongke.24h.com.vn^
 ||thongtincongty.com/fancybox/*
@@ -921,7 +916,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||viglink.com^	
 ||vkool.net/js/pov.js
 ||vnreview.vn/*/sh_
-||vnreview.vn/facebook_like_count
 ||vnreview.vn/play-clip/*
 ||vnwebgame.com^$popup
 ||vozforums.com/clientscript/vbulletin_lightbox.js?*
@@ -936,17 +930,13 @@ yts/swfbin/player-vfl*/ad*.swf
 ||xemvtv.net/kaka/ads*
 ||xonefm.com/media/*.swf
 ||yadro.ru^
-||yan.vn/*/yannews_coccoc*
-||yan.vn/*images/co*
 ||yan.vn/*images/cudem*
-||yan.vn/images/*banner
 ||yan.vn/yanimages/like_yannews*
 ||yandex.ru^$third-party
 ||yceml.net^
 ||yllix.com^
 ||yomedia.vn^
 ||youtube.com/api/stats/
-||youtube.com/embed/Mf6XizCOtrk?*
 ||youtube.com/embed/VLz6bN1dImo?*
 ||youtube.com/gen_*?a=resolution&width=*
 ||zaloapp.com^$third-party
