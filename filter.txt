@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-14T01:00:05-04:00
+! Last modified: 2015-04-15T01:00:03-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -280,6 +280,7 @@ yan.vn##DIV[style*="images/cudem"]
 yan.vn##DIV[style*="images/like_yannews"]
 yan.vn##DIV[style^="border: 2px solid #ed2d2d;"]
 yeah1.com##.tn-sharepost.hh-sharepost
+youtube.com###feed-pyv-container
 youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
