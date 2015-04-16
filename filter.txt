@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-15T01:00:03-04:00
+! Last modified: 2015-04-16T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -33,6 +33,7 @@ inbox.google.com#@#.ad
 yeah1.com,phim3s.net,x-rates.com,kissanime.com#@#[id^="ads"]
 oxforddictionaries.com#@#[class^="ad_"]
 tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
+movies.hdviet.com#@##sponsorText
 ! ========================== Element Hiding Per Site ==========================
 expertcircuits.blogspot.com###fanback
 vivo.vn##.tatquangcao
@@ -362,6 +363,7 @@ searchTrack.php?
 tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
+@@||2o7fansub.com/images/Banner*
 @@||hayhaytv.com/advertisement.js?*
 @@*/WebtrethoTV/js/ads.js
 @@/account/alerts-popup?*
@@ -822,7 +824,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||sonyfan.vn/*.swf
 ||sosmart.vn^$third-party
 ||spotxchange.com^
-||st.game.thanhnien.com.vn^
+||st.game.thanhnien.com.vn^$third-party
 ||statcounter.com^
 ||staticpress.vcmedia.vn/*.swf
 ||stc.nas.nixcdn.com^$domain=nhaccuatui.com
@@ -927,6 +929,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||megabox.vn/min/?g=jsbottom&*
 ||baobongda.net/templates/themes/js/qc_video.js
 ||baobongda.net/*.gif|
+||quensillo.com^$domain=mediafire.com
+||stats.wordpress.com^$third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
