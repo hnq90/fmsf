@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-16T01:00:04-04:00
+! Last modified: 2015-04-17T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -931,6 +931,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||baobongda.net/*.gif|
 ||quensillo.com^$domain=mediafire.com
 ||stats.wordpress.com^$third-party
+||img.thiendia.com/server6/images/*.jpg|
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
