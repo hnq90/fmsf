@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-17T01:00:04-04:00
+! Last modified: 2015-04-18T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -363,6 +363,8 @@ searchTrack.php?
 tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
+@@||facebook.com/dialog/oauth?*
+@@||dropboxstatic.com/static/coffee/compiled/modules/clean/react/activity/contacts_selector_popup-*.js|
 @@||2o7fansub.com/images/Banner*
 @@||hayhaytv.com/advertisement.js?*
 @@*/WebtrethoTV/js/ads.js
@@ -412,7 +414,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||stream.adtimaserver.vn^$domain=talktv.vn
 @@||suzuki.com.vn/uploads/images/*banner-
-@@||tbcdn.cn/tb/tsrp/*$stylesheet,domain=s.taobao.com
+@@*/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@||thanhnien.com.vn/PublishingImages*/banner
 @@||thethaotv.vn/themes/front/images/banner-thethaotv*
 @@||thienthientan.vn/Upload/Banner/*
@@ -650,7 +652,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||giaitri72.com^$third-party
 ||gigya.com^
 ||girlxinh.gocchiase.vn^$popup,third-party
-||goo.gl^$popup,domain=blogtruyen.com
+||goo.gl^$popup,domain=blogtruyen.com|videomega.tv
 ||google-analytics.com^
 ||google.com/*+1/*
 ||google.com/ads*
