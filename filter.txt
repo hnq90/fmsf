@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-21T01:00:04-04:00
+! Last modified: 2015-04-22T01:00:03-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -27,7 +27,7 @@
 ##[id^="div-gpt-ad"]
 ##[id^='divAd']
 ! ========================= Element Hiding Exception ==========================
-chotot.vn,crunchyroll.com,xuanvinh.vn#@#[class^="ad-"]
+chotot.vn,crunchyroll.com,xuanvinh.vn, soompi.com#@#[class^="ad-"]
 eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
@@ -717,7 +717,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||luminate.com^
 ||m-viet.com^$popup,third-party
 ||m88*.com^$popup,third-party
-||mediafire.com/blank.html
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
 ||megabox.vn/megabox/video/Ipad.scene.720p.mp4
