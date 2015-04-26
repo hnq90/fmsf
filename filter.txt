@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-25T01:00:04-04:00
+! Last modified: 2015-04-26T01:00:08-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -15,8 +15,8 @@
 ##.above-player
 ##.ad
 ##.advertisement
-##[class^="ad-"]
-##[class^="ad_"]
+##[class^="ad-"]:not(.ad-skin)
+##[class^="ad_"]:not(body)
 ##[class^="ads"]
 ##[class^="balloon"]
 ##[class^="float-ck"]
@@ -27,7 +27,7 @@
 ##[id^="div-gpt-ad"]
 ##[id^='divAd']
 ! ========================= Element Hiding Exception ==========================
-chotot.vn,crunchyroll.com,xuanvinh.vn, soompi.com#@#[class^="ad-"]
+chotot.vn,xuanvinh.vn#@#[class^="ad-"]
 eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
@@ -289,8 +289,6 @@ zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
 *ad.ballloon.js?*
 -ads^
--banner-
--banner.
 -banner^
 -popup.
 -popup^
@@ -315,12 +313,9 @@ zippyshare.com##.center_ad
 /api/impression_hit*
 /atrk.js
 /avim.js
-/banner-
-/banner.
-/banner/*
-/banner_
+/banner/*$~image
 /bannerqc/*
-/banners/*
+/banners/*$~image
 /banners?
 /click.$popup
 /delivery/*
@@ -355,8 +350,6 @@ zippyshare.com##.center_ad
 /viettyping.js
 _ads.
 _ads^
-_banner.
-_banner_
 _clicktracker.js
 assets/pub/shareaholic*
 hitInfo.ashx?*
@@ -371,8 +364,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@/conversations/popup?*
 @@thamhue.com/images/ads/lgthamhue1.gif
 @@||195.82.146.52/logo/*
-@@||2o7fansub.com/banner/*
-@@||2o7fansub.com/images/Banner*
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn
 @@||ads.tinmoi.vn^
 @@||api.adtimaserver.vn/crossdomain.xml
@@ -380,53 +371,31 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||bhdstar.vn/*movie-detail-popup*
 @@||blueserving.com/crossdomain.xml
 @@||cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js$domain=tiki.vn
-@@||cgv.vn/media/banner/cache/*
 @@||downloadmaxspeed.net/js/jquery.magnific-popup.min.js
 @@||dropboxstatic.com/static/coffee/compiled/modules/clean/react/activity/contacts_selector_popup-*.js|
 @@||facebook.com/dialog/oauth?*
 @@||foody.vn/biz_banner/*1000x
 @@||foody.vn/biz_banner/*foody-banner*
 @@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
-@@||forum.gamevn.com/banner/*
-@@||forum.ketqua.net/styles/*/banner.jpg
-@@||galaxycine.vn/files/upload/banner/*
-@@||hanoicomputer.vn/media/banner/banner_
 @@||hayhaytv.com/advertisement.js?*
 @@||hayhaytv.vn/advertise/*-hayhayTV.jpg
 @@||hdonline.vn/*/video?*
-@@||hdonline.vn/Hot-banner-HDO---ngay-vang.png
-@@||honda.com.vn/files/*_banner_
-@@||hplus.com.vn/*/banner/*
-@@||image.mp3.zdn.vn/banner/*
 @@||kay.com.vn/IndexBanner/*
-@@||khuyenmaivang.vn/style/frontend/banner/*
 @@||lozi.vn/*/block-popup.js
-@@||media.vatgia.vn/banners/*
-@@||megabox.vn/ads-banner_*
 @@||nv-ad.24hstatic.com/*.jpg
-@@||phanmemdietvirus.com.vn/themes/default/assets/images/bg_top_banner.jpg
 @@||phim3s.net/player-ads/*
 @@||phongvu.vn/gallery/avatar_upload/ads/*.swf
 @@||phongvu.vn/templates/vtpv/images/bg-popup.png
-@@||photoservice.goplay.vn/Resources/Upload/Images/Banner/*$domain=cs.go.vn
 @@||pq-direct.revsci.net^$domain=vivo.vn
 @@||s.yimg.com/zz/combo?nq/s/a/style_*.css
-@@||sbv.gov.vn/portal/images/sbv_banner.jpg
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||stream.adtimaserver.vn^$domain=talktv.vn
 @@||suzuki.com.vn/uploads/images/*banner-
-@@||thanhnien.com.vn/PublishingImages*/banner
-@@||thethaotv.vn/themes/front/images/banner-thethaotv*
-@@||thienthientan.vn/Upload/Banner/*
-@@||tikicdn.com/media/custom/banners/resize/*_center_banner/*
-@@||tikicdn.com/media/custom/banners/resize/home_top_bannerv3/File-*
 @@||tinmoi.vn/ads/anninhtv/*
 @@||twitter.com/i/profiles/popup?*
 @@||udemy.com/*-popup?*
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||weather.channelvn.net^
-@@||xdeal.vn/content/themev6/images/banner/*
-@@||yamaha-motor.com.vn/uploads/banners/*
 ! ====================== Third-party adverts and trackers =====================
 |http://u.to^$popup,domain=vietcago.com
 ||118.69.168.115/PolyadsFile/*
@@ -684,7 +653,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||histats.com^
 ||horsered.com^
 ||hotso1.com^$third-party
-||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|xemtiviso.com|tructiepbongda.com|bongdatv.net|forum.ketqua.net|mybongda.com
+||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com
 ||igo.5giay.vn/changebanner/mBanner
 ||img.thiendia.com/*.gif
 ||infogame.vn/*swf
