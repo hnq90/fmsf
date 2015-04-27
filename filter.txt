@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-26T01:00:08-04:00
+! Last modified: 2015-04-27T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -28,10 +28,9 @@
 ##[id^='divAd']
 ! ========================= Element Hiding Exception ==========================
 chotot.vn,xuanvinh.vn#@#[class^="ad-"]
-eva.vn,gamek.vn,www.techz.vn,dantri.com.vn#@#[class^="ads"]
+eva.vn,gamek.vn,techz.vn,dantri.com.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
-oxforddictionaries.com#@#[class^="ad_"]
 tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
 yeah1.com,phim3s.net,x-rates.com,kissanime.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
@@ -100,8 +99,6 @@ eva.vn##[class^="banner300250"]
 expertcircuits.blogspot.com###fanback
 facebook.com###pagelet_side_ads
 facebook.com##[id^='PageAdsPagelet']
-foody.vn###float-header > div[style="height: 60px; "]
-foody.vn###left-float-banner
 foody.vn##.microsite-top-banner
 foody.vn##div .microsite .social-share-icons
 forum.360kpop.com##.dc-adv
@@ -110,9 +107,10 @@ forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
 forum.webketoan.vn##.sidebar
 forum.webketoan.vn##[class$=ads]
-fshare.vn###popup
+fshare.vn###fcodeNotifi
+fshare.vn##.btn-red.vip-btn ~ div
 fshare.vn##.fancybox-overlay
-fshare.vn##MARQUEE[behavior="scroll"]
+fshare.vn##.modal-backdrop
 gamehub.vn##.sidebar #widget-45
 gamesupport.vn###gritter-notice-wrapper
 gametv.vn##.reponsive_ads_right
@@ -288,32 +286,35 @@ youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
 *ad.ballloon.js?*
--ads^
--banner^
+-ads/
+-banner/
 -popup.
--popup^
+-popup/
 .com/qc/*
 .net/qc/*
 .php?referer*
 /?file=ads&
+/Bacdau-banner-
 /Collateral.aspx?*
 /GTrackPlugin.swf
 /ad_manage/*
 /ads-
 /ads.
-/ads^
+/ads/*
 /ads_
 /adscript/*
 /adsfloat/*
 /adv/*
 /advertise/*
-/adx.php^
+/adx.php/*
 /analytics_frame
 /api/click_hit*
 /api/impression_hit*
 /atrk.js
 /avim.js
 /banner/*$~image
+/banner/*.gif
+/banner_$third-party
 /bannerqc/*
 /banners/*$~image
 /banners?
@@ -331,12 +332,12 @@ zippyshare.com##.center_ad
 /pop.js
 /popads.
 /popup.
+/popup/*
 /popup1.js
 /popup2.js
-/popup^
 /popup_
 /promotions/*
-/ptracking^
+/ptracking/*
 /quang-cao/*
 /quangcao.
 /quangcao/*
@@ -349,7 +350,7 @@ zippyshare.com##.center_ad
 /vbulletin_read_marker.js?*
 /viettyping.js
 _ads.
-_ads^
+_ads/*
 _clicktracker.js
 assets/pub/shareaholic*
 hitInfo.ashx?*
@@ -390,7 +391,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||s.yimg.com/zz/combo?nq/s/a/style_*.css
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||stream.adtimaserver.vn^$domain=talktv.vn
-@@||suzuki.com.vn/uploads/images/*banner-
 @@||tinmoi.vn/ads/anninhtv/*
 @@||twitter.com/i/profiles/popup?*
 @@||udemy.com/*-popup?*
@@ -485,6 +485,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adsvids.com^
 ||adsvn.ga^
 ||adsyst.biz^
+||adtechus.com^$third-party
 ||adtimaserver.vn^$other,script,image,stylesheet,object,subdocument,object-subrequest,xmlhttprequest,popup
 ||adtop.vn^
 ||adultadworld.com^
@@ -561,6 +562,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||clicksor.net^
 ||clipnong.vn^
 ||clipvip.tv^$third-party
+||cmd368.net^$popup,third-party
 ||cnzz.com^
 ||coccoc.com^$third-party
 ||congdonghot.com^$third-party
@@ -642,6 +644,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hai360.vn/skin/web/*custombox*
 ||haivk.net^$third-party
 ||halophim.net^$popup,third-party
+||hanoicomputer.vn/media/banner/banner_*
 ||haycuoi.com/css/ad.css
 ||hayhaytv.com/layout/js/ab_replace/*
 ||hayhaytv.vn/vod/*
@@ -752,7 +755,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||popmyads.com^
 ||popnet.vn^
 ||porn99.net^$third-party
-||postimg.org/*.gif$domain=thiendia.com
+||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com
 ||pr-quangcao.edu.vn^
 ||projectwonderful.com^
 ||propellerads.com^
@@ -782,6 +785,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||revsci.net^
 ||riverbanksand.com^
 ||rmbn.net^
+||rtbclick.net^$third-party
 ||rtbpop.com^
 ||rubiconproject.com^
 ||rutracker.org^$subdocument,object
@@ -824,6 +828,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||thamhue.com.vn/ad/*
 ||thamhue.vn/ad/*
 ||thecheapest-travel.com^$third-party
+||thegioidaichien.com^$popup,third-party
 ||thethaotv.vn^$third-party
 ||thiendia.com/slide/pop_in_bottom_page.*
 ||thongdiepso.com^$third-party
@@ -904,6 +909,9 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtube.com/gen_*?a=resolution&width=*
 ||zaloapp.com^$third-party
 ||zedo.com^
+||phunucuoi.com^$third-party
+||banxe.2banh.vn^
+||2banh.vn/*/script_banner/*
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
