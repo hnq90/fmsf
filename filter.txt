@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-27T01:00:04-04:00
+! Last modified: 2015-04-28T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -27,7 +27,7 @@
 ##[id^="div-gpt-ad"]
 ##[id^='divAd']
 ! ========================= Element Hiding Exception ==========================
-chotot.vn,xuanvinh.vn#@#[class^="ad-"]
+chotot.vn,xuanvinh.vn#@#[class^="ad-"]:not(.ad-skin)
 eva.vn,gamek.vn,techz.vn,dantri.com.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
@@ -306,6 +306,7 @@ zippyshare.com##.center_ad
 /adsfloat/*
 /adv/*
 /advertise/*
+/advertisement/*
 /adx.php/*
 /analytics_frame
 /api/click_hit*
@@ -358,6 +359,8 @@ searchTrack.php?
 tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
+@@||doko.vn/StaticDeploy/*/popup*
+@@||apis.google.com/js/plusone.js$domain=doko.vn
 @@*/WebtrethoTV/js/ads.js
 @@*/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@/account/alerts-popup?*
@@ -912,6 +915,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||phunucuoi.com^$third-party
 ||banxe.2banh.vn^
 ||2banh.vn/*/script_banner/*
+||hayhaytv.com/layout/js/hayhaytv.js?*
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
