@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-28T01:00:04-04:00
+! Last modified: 2015-04-29T01:00:05-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*
 ||facebook.com/connect/ping*
@@ -916,6 +916,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||banxe.2banh.vn^
 ||2banh.vn/*/script_banner/*
 ||hayhaytv.com/layout/js/hayhaytv.js?*
+||prwidgets.com^$third-party
+||megabox.vn/public/Home/*/coverPop.
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
