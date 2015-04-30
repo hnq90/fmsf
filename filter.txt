@@ -3,10 +3,10 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-29T01:00:05-04:00
+! Last modified: 2015-04-30T01:00:03-04:00
 ! ============================== Different ====================================
-||facebook.com*/plugins/like*
-||facebook.com/connect/ping*
+||facebook.com*/plugins/like*$domain=~vnreview.vn
+||facebook.com/connect/ping*$domain=~vnreview.vn
 ||facebook.com/plugins/share_button.php?*
 ||facebook.com*/plugins/page.php?*
 ||facebook.com/v2.0/plugins/recommendations.php?*
@@ -150,7 +150,6 @@ kienthuc.net.vn##.simplebanner
 kienthuc.vn##.ja-colswrap.clearfix.ja-r2
 laban.vn##.overlay-bg
 lgviet.com##.widget.WidgetFramework_WidgetRenderer_Html
-linktocdo.com##.quangcao-top
 lottecinemavn.com###ctl00_pPopup
 lozi.vn##.share-box
 mail.google.com##.Bu.y3
@@ -307,7 +306,7 @@ zippyshare.com##.center_ad
 /adv/*
 /advertise/*
 /advertisement/*
-/adx.php/*
+/adx.php?*
 /analytics_frame
 /api/click_hit*
 /api/impression_hit*
@@ -647,7 +646,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hai360.vn/skin/web/*custombox*
 ||haivk.net^$third-party
 ||halophim.net^$popup,third-party
-||hanoicomputer.vn/media/banner/banner_*
+||hanoicomputer.vn/media/banner/*.jpg
 ||haycuoi.com/css/ad.css
 ||hayhaytv.com/layout/js/ab_replace/*
 ||hayhaytv.vn/vod/*
@@ -918,6 +917,9 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hayhaytv.com/layout/js/hayhaytv.js?*
 ||prwidgets.com^$third-party
 ||megabox.vn/public/Home/*/coverPop.
+||linktocdo.com/hotro/hinhanh/lienhequangcao.jpg
+||8phim.com^$third-party
+||khoavang24h.com^$third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
