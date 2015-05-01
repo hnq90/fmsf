@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-04-30T01:00:03-04:00
+! Last modified: 2015-05-01T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*$domain=~vnreview.vn
 ||facebook.com/connect/ping*$domain=~vnreview.vn
@@ -914,7 +914,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||phunucuoi.com^$third-party
 ||banxe.2banh.vn^
 ||2banh.vn/*/script_banner/*
-||hayhaytv.com/layout/js/hayhaytv.js?*
 ||prwidgets.com^$third-party
 ||megabox.vn/public/Home/*/coverPop.
 ||linktocdo.com/hotro/hinhanh/lienhequangcao.jpg
