@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-02T01:00:05-04:00
+! Last modified: 2015-05-03T01:00:04-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*$domain=~vnreview.vn
 ||facebook.com/connect/ping*$domain=~vnreview.vn
@@ -228,7 +228,6 @@ thebox.vn###ballon
 thebox.vn##[id*="polyad"]
 thethao247.vn###teaserads
 thiendia.com###posts > div:first-child > br + *
-thiendia.com##a[href="http://goo.gl/qQfuhJ"]
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.topBanner
 tinmoi.vn###sharebox
@@ -361,6 +360,7 @@ searchTrack.php?
 tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
+@@||facebook.com/ajax/questions/popup.php?*
 @@||doko.vn/StaticDeploy/*/popup*
 @@||apis.google.com/js/plusone.js$domain=doko.vn
 @@*/WebtrethoTV/js/ads.js
