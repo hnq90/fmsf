@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-04T01:00:04-04:00
+! Last modified: 2015-05-05T01:00:05-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*$domain=~vnreview.vn
 ||facebook.com/connect/ping*$domain=~vnreview.vn
@@ -360,6 +360,7 @@ searchTrack.php?
 tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
+@@||dmcdn.net/js/gen/widget/pack/popup.js.*
 @@||tracking.gfycat.com^
 @@||facebook.com/ajax/questions/popup.php?*
 @@||doko.vn/StaticDeploy/*/popup*
@@ -598,7 +599,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||docbao.vn/images/bagiang.swf
 ||donate-*.info^
 ||donghohoangkim.vn^$domain=phienbanmoi.com
-||doubleclick.net^
+||doubleclick.net^$script,object,subdocument,xmlhttprequest,object-subrequest,popup,third-party
 ||doublepimp.com^
 ||dpstatic.com^
 ||dramafull.com^
@@ -927,6 +928,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||nguonvui.com/content/getPromo?*
 ||coinurl.com^$third-party
 ||ouo.io^$third-party
+||apple8.com.vn/?*$popup,third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
