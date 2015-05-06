@@ -3,10 +3,10 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-05T01:00:05-04:00
+! Last modified: 2015-05-06T01:00:03-04:00
 ! ============================== Different ====================================
 ||facebook.com*/plugins/like*$domain=~vnreview.vn
-||facebook.com/connect/ping*$domain=~vnreview.vn
+!||facebook.com/connect/ping*$domain=~vnreview.vn
 ||facebook.com/plugins/share_button.php?*
 ||facebook.com*/plugins/page.php?*
 ||facebook.com/v2.0/plugins/recommendations.php?*
@@ -34,6 +34,7 @@ movies.hdviet.com#@##sponsorText
 tinhte.vn,hdvietnam.com#@#[id^="div-gpt-ad"]
 yeah1.com,phim3s.net,x-rates.com,kissanime.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
+phimhd.vn###floatleft
 nguonvui.com##[class^="introjs"]
 nguonvui.com##.right-b
 thiendia.com##.page > [align="left"] > CENTER TR:first-child
