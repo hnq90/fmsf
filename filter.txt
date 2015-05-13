@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-12T01:00:04-04:00
+! Last modified: 2015-05-13T01:00:03-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -282,6 +282,8 @@ youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
+/buaxua_floating.js
+/ad.php?
 /jquery.popupWindow.js
 *ad.ballloon.js?*
 -ads/
@@ -360,7 +362,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
 @@||195.82.146.52/logo/*
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn
-@@||ads.tinmoi.vn^
+@@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*
 @@||apis.google.com/js/plusone.js$domain=doko.vn
@@ -469,7 +471,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adrotator.se^$popup,script,image,stylesheet
 ||adsafeprotected.com^
 ||adserve.postrelease.com^
-||adserver.muaban.net^
+||adserver.
 ||adservingsolutionsinc.com^
 ||adshexa.com^
 ||adshost*.com^
@@ -481,11 +483,10 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adsvn.ga^
 ||adsyst.biz^
 ||adtechus.com^$third-party
-||adtimaserver.vn^$other,script,image,stylesheet,object,subdocument,object-subrequest,xmlhttprequest,popup
+||adtimaserver.vn^$script,image,object,subdocument,object-subrequest,xmlhttprequest,popup
 ||adtop.vn^
 ||adultadworld.com^
 ||adv.thethaovanhoa.vn^
-||adv.videomega.tv^
 ||adversal.com^
 ||advert*.com^
 ||adx.kul.vn^
@@ -627,7 +628,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||giaitri72.com^$third-party
 ||gigya.com^
 ||girlxinh.gocchiase.vn^$popup,third-party
-||goo.gl^$popup,domain=blogtruyen.com|videomega.tv
+||goo.gl^$popup,domain=blogtruyen.com|videomega.tv|be69.net
 ||google-analytics.com^
 ||google.com/*+1/*
 ||google.com/ads*
@@ -918,6 +919,12 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtube.com/gen_*?a=resolution&width=*
 ||zaloapp.com^$third-party
 ||zedo.com^
+||youtv.vn/upload/*.swf
+||asto-exo.com^$third-party
+||videomega.tv/vjs/*vast*
+||123doc.org/documents/ajax/ajax_load_ads_vg.php
+||2mdn.net^$third-party
+||raovattoanquoc3s.com^$popup,third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
