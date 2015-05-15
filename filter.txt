@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-14T01:00:04-04:00
+! Last modified: 2015-05-15T01:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -103,9 +103,8 @@ forum.ragezone.com##[id*="navbar_notice"]
 forum.webketoan.vn##.sidebar
 forum.webketoan.vn##[class$=ads]
 fshare.vn###fcodeNotifi
-fshare.vn##.btn-red.vip-btn ~ div
+fshare.vn##.btn-red.vip-btn ~ div:not(#smscode)
 fshare.vn##.fancybox-overlay
-fshare.vn##.modal-backdrop
 gamehub.vn##.sidebar #widget-45
 gamesupport.vn###gritter-notice-wrapper
 gametv.vn##.reponsive_ads_right
@@ -178,7 +177,6 @@ phienbanmoi.com###content .sidebar .price
 phienbanmoi.com###uix_footer_columns + * + * + TABLE[style="text-align: center;"]
 phienbanmoi.com###uix_welcomeBlock
 phienbanmoi.com##[href^="http://donghohoangkim.vn/"]
-phim14.net###left_ads_float
 phim16.com###mask
 phim16.com##[id^="adMarx"]
 phimhd.vn###floatleft
@@ -249,7 +247,7 @@ tvtructuyen.net##.chia-se
 up.4share.vn##.advs + * + CENTER
 up.4share.vn##TD[style="width: 150px; padding: 5px"]
 userstyles.org###social
-viettorrent.vn##.col-md-12 > center
+viettorrent.vn##.container-fluid CENTER
 vivo.vn##.banner_a.banner_bg_e
 vivo.vn##.tatquangcao
 vkool.net###boxes
@@ -357,6 +355,8 @@ searchTrack.php?
 tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
+@@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
+@@||creative.adobe.com/ccmb906b12/resource/common/utils/log.js
 @@/WebtrethoTV/js/ads.js
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
@@ -876,7 +876,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||up-anh.ssc.vn^$domain=thamhue.com.vn|thamhue.vn
 ||upanh123.com^$popup,third-party
 ||upload69.net/images/83eja29kbksrnfpv65d5.gif
-||upsieutoc.com^$domain=ketqua.net
+||upsieutoc.com^$domain=ketqua.net|tructiepbongda.com
 ||userreport.com^
 ||v8l.info^
 ||vbet*.com^$popup
@@ -921,8 +921,9 @@ yts/swfbin/player-vfl*/ad*.swf
 ||asto-exo.com^$third-party
 ||videomega.tv/vjs/*vast*
 ||123doc.org/documents/ajax/ajax_load_ads_vg.php
-||2mdn.net^$third-party
 ||raovattoanquoc3s.com^$popup,third-party
+||fptplay.net/js/plugins/vast-client.min.js
+||skypeassets.com^$third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
