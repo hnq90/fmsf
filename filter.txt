@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-16T01:00:03-04:00
+! Last modified: 2015-05-17T01:00:05-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -29,9 +29,9 @@ hdvietnam.com#@#[id^="div-gpt-ad"]
 yeah1.com,phim3s.net,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
 24h.com.vn###ReplayAd
+24h.com.vn##[class*="banner"]
 24h.com.vn,eva.vn###linkbg1
 24h.com.vn,eva.vn###linkbg2
-24h.com.vn##[class*="banner"]
 3dcontentcentral.com###DivHomeBanner
 3dcontentcentral.com###supplierServices
 4shared.com##[id^="epom"]
@@ -60,7 +60,6 @@ bongdaso.com###left_float
 bongdaso.com##.art_header_text
 bongdaso.com##[class*="_banner"]
 bongdatructuyen.info###text-14.right-widget
-bongdatructuyen.info###text-3.right-widget
 bongdatructuyen.vn###chatbox
 bongdatructuyen.vn,bongdatructuyen.us###left_sticky_ads
 bongdatructuyen.vn,bongdatructuyen.us##[id^="banner"]
@@ -73,6 +72,7 @@ bongdaup.com###fl813691
 bongdaup.com###right_float
 cadviet.com###quangcaocadviet
 choimobile.vn###rightContentBox
+choimobile.vn##.quangcao_post
 chovinh.com##.sidebar > DIV[style^="width:300px"]
 clbgamesvn.com###contentMain center
 comicvn.net##.modal-backdrop
@@ -97,17 +97,13 @@ facebook.com##[id^='PageAdsPagelet']
 foody.vn##.microsite-top-banner
 foody.vn##div .microsite .social-share-icons
 forum.360kpop.com##.dc-adv
-forum.gamevn.com##.gvn-right-ads-1
 forum.ragezone.com##[class*="RZ_BOX"]
 forum.ragezone.com##[id*="navbar_notice"]
-forum.webketoan.vn##.sidebar
-forum.webketoan.vn##[class$=ads]
 fshare.vn###fcodeNotifi
 fshare.vn##.btn-red.vip-btn ~ div:not(#smscode)
 fshare.vn##.fancybox-overlay
-gamehub.vn##.sidebar #widget-45
 gamesupport.vn###gritter-notice-wrapper
-gametv.vn##.reponsive_ads_right
+gametv.vn##body > [id^="banner_"]
 ghacks.net##.block
 giaiphapexcel.com###sidebar_container
 giaiphapexcel.com##.yui-sidebar
@@ -127,8 +123,6 @@ heaveniphone.com##.thongbao
 howtogeek.com###side78
 howtogeek.com##.adSystem_ads
 howtogeek.com##.overlay-bg
-htvonline.com.vn##.sticky_menu
-htvonline.com.vn##[id^="myModal-notification"]
 kenh14.vn##.bodycontent.clearfix > .subheader
 kenh14.vn##.socialbox
 kenh60.net###content > DIV[style*="height: 100px;"]
@@ -163,7 +157,6 @@ news.zing.vn###site-header
 news.zing.vn##.btnSocial
 news.zing.vn##[id*="adv"]
 nguonvui.com##.right-b
-nguonvui.com##[class^="introjs"]
 nhac.vui.vn##.padTop5.padBot5
 nhaccuatui.com###HF
 nhaccuatui.com##[class*="adv_home"]
@@ -171,7 +164,6 @@ notebookitalia.it##.block1a.unit
 pastebin.com##[class^="banner_"]
 pcworld.com.vn##.pc-adv-local-2
 pes.vn##.body_wrapper > CENTER
-petrotimes.vn##.__ads_click
 petrotimes.vn##[id^="rotating_elements_"]
 phienbanmoi.com###content .sidebar .price
 phienbanmoi.com###uix_footer_columns + * + * + TABLE[style="text-align: center;"]
@@ -198,7 +190,7 @@ skidrowgames.net###text-6
 softarchive.net##.big_banner_adv
 softarchive.net##.left_banner
 softarchive.net##.topic_adv
-sonyfan.vn##.qc-top
+sonyfan.vn##.content > div.post-listing
 stardaily.vn##.logowidget
 stardaily.vn##.widget_facebook-recommendations
 talk.secafe.vn###headerProxy
@@ -211,20 +203,14 @@ techpowerup.com##.rnav_e
 techpowerup.com##.top_e
 techrum.vn##.sharePage
 techrum.vn##[id*="SliderBanner"]
-techz.vn###right-top-ads
 thamhue.com###sidebar
 thamhue.vn,thamhue.com.vn###sidebar
 thamhue.vn,thamhue.com.vn###vsa_fh_stats table tr:first-child td:last-child
 thanhnien.com.vn##.qc-Container.bg-Container
-thebox.vn###Div1.width_common.box_padding
-thebox.vn###ballon
-thebox.vn##[id*="polyad"]
-thethao247.vn###teaserads
 thiendia.com###posts > div:first-child > br + *
 thiendia.com##.page > [align="left"] > CENTER TR:first-child
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.topBanner
-tinmoi.vn###sharebox
 tinthethao.com.vn###letsop-sportgame
 tivi24h.com###HTML9
 tivi24h.com###bloggernotificationWrap
@@ -243,7 +229,6 @@ tuthienbao.com##.fb-comments + TABLE[width="900px"]
 tuthienbao.com##TD[align="right"]
 tv.101vn.com###right_float
 tv.101vn.com##.header
-tvtructuyen.net##.chia-se
 up.4share.vn##.advs + * + CENTER
 up.4share.vn##TD[style="width: 150px; padding: 5px"]
 userstyles.org###social
@@ -257,7 +242,6 @@ vnexpress.net##[class^="banner_"]
 vnreview.vn###adventist_content
 vozforums.com##.middleads
 vozforums.com##TD[width="160"]
-vuiviet.com.vn###banner_FloatRight
 vuiviet.com.vn##.container.hidesmall
 vuiviet.com.vn##DIV[style*="width:300px; height:150px; background:#ddd;"]
 whitehat.vn###fanback
@@ -280,7 +264,6 @@ youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
-*ad.ballloon.js?*
 -ads/
 -banner/
 .com/qc/*
@@ -298,6 +281,7 @@ zippyshare.com##.center_ad
 /ads/*
 /ads_
 /adscript/*
+/adserver/*
 /adsfloat/*
 /adv/*
 /advertise/*
@@ -318,17 +302,22 @@ zippyshare.com##.center_ad
 /click.$popup
 /delivery/*
 /facebook-popup-box/*
+/floatads.js?*
 /gamead/*
 /generate_204
+/itro-popup/*
 /jquery.bpopup.min.js
 /jquery.popupWindow.js
 /jquery.smart*banner.
-/js/light.js?*
+/jspopup.js
+/letsop-
 /log.
+/mudim-
 /mudim.
 /piwik.js
 /pop-ad.
 /pop.js
+/pop1web-
 /popads.
 /popup.
 /popup/*
@@ -352,21 +341,20 @@ _ads.
 _ads/*
 _clicktracker.js
 assets/pub/shareaholic*
-hitInfo.ashx?*
 searchTrack.php?
-tracking.ashx?action=*
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 @@/WebtrethoTV/js/ads.js
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
+@@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*
 @@||apis.google.com/js/plusone.js$domain=doko.vn
-@@||blueserving.com/crossdomain.xml$domain=movies.hdviet.com
+@@||blueserving.com/crossdomain.xml$domain=hdviet.com
 @@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js$domain=tiki.vn
 @@||creative.adobe.com/ccmb906b12/resource/common/utils/log.js
@@ -381,6 +369,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hayhaytv.vn/advertise/*-BANNER%20QUANG%20CAO%20NHA-XE-03.jpg
 @@||hdonline.vn/*/video?*
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
+@@||img.thethaotv.vn^$domain=bongdaup.com
 @@||kay.com.vn/IndexBanner/*
 @@||kay.com.vn/kay_v2/js/popup.js
 @@||nv-ad.24hstatic.com/*.jpg
@@ -522,7 +511,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||batdongsangroup.vn^$popup,third-party
 ||bbvnmedia.files.wordpress.com/*.gif
 ||beads.com.vn^
-||beautyaddictreview.com/adserver/*
 ||begun.ru^
 ||bestfitnesscbproducts.com^$third-party
 ||beta.ads.cc^
@@ -536,15 +524,13 @@ yts/swfbin/player-vfl*/ad*.swf
 ||blueserving.com^
 ||bong99.com^$popup,third-party
 ||bongacash.com^
-||bongda.com.vn/ad*
-||bongda.com.vn/letsop-banner
 ||bongda.com.vn/wp-content/*.swf
 ||bongdaso.com/_BannerSlot.aspx?*
 ||bongdatructuyen.info/js/pop2web*
 ||bongdatructuyen.org^$popup,third-party
 ||bongdatructuyen.vn/js/jquery.fancybox/*
 ||bongdatructuyen.vn/js/p0pundr.js
-||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|tvtructuyen.net|tivionline.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|phimhd.vn
+||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|phimhd.vn|xemthethao.vn|xembongda24h.com
 ||buysellads.com^
 ||cachnuoicon.net^$popup,third-party
 ||cafecuoi.net/vote$popup
@@ -557,7 +543,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||channelvn.net^
 ||chartbeat.com^
 ||chitika.net^
-||choimobile.vn/hinhanh/*.swf
 ||chungthuconline.com$popup,third-party
 ||click.xdeal.vn/adssite/*
 ||clicks.truongton.net^
@@ -581,7 +566,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||criteo.com^
 ||criteo.net^
 ||crwdcntrl.net^
-||cvt.vn/images/*quangcao.gif
 ||cxense.com^
 ||cydia.vn^$third-party
 ||da-ads.com^
@@ -590,6 +574,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||deca.vn^$third-party
 ||delivery45.com^
 ||diadiemdulichdep.com^$third-party
+||diemgiaitri.info^$third-party
 ||diendanlequydon.com^$third-party
 ||directrev.com^
 ||divxcentral.com/wp-content/plugins/adblock-notify-by-bweb/*
@@ -619,6 +604,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||fcounter.info^
 ||feedjit.com^
 ||fmpub.net^
+||fn1s.info^$third-party
 ||foody.vn/biz_banner/
 ||fptplay.net/js/plugins/vast-client.min.js
 ||fptplay.net/static/js/ad_vast_new_skip.js
@@ -652,18 +638,16 @@ yts/swfbin/player-vfl*/ad*.swf
 ||haivk.net^$third-party
 ||halophim.net^$popup,third-party
 ||hanoicomputer.vn/media/banner/*.jpg
-||haycuoi.com/css/ad.css
 ||hayhaytv.com/layout/js/ab_replace/*
 ||hayhaytv.vn/vod/*
 ||hdonline.vn/frontend/wiget/*
 ||hdonline.vn/pop-up-
 ||hdviet.com/v2/js/hdv.v2.event.min.js?*
-||hdvietnam.com/adsx/*
 ||hihe.vn^$third-party
 ||histats.com^
 ||horsered.com^
 ||hotso1.com^$third-party
-||i.imgur.com/*.gif$domain=keonhacai.com|8bongda.com|bongdatructuyen.info|bongdaup.com|tv.101vn.com|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com
+||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|tv.101vn.com|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info
 ||igo.5giay.vn/changebanner/mBanner
 ||img.thiendia.com/*.gif
 ||infogame.vn/*swf
@@ -700,9 +684,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||m88*.com^$popup,third-party
 ||mediafire.com/helper_01.swf
 ||mediafire.com/templates/linkto/*
-||megabox.vn/megabox/video/Ipad.scene.720p.mp4
-||megabox.vn/min/?g=jsbottom&*
-||megabox.vn/public/Home/*/coverPop.
 ||metric.gstatic.com^
 ||mftracking.com^
 ||mgid.com^
@@ -769,7 +750,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||popmyads.com^
 ||popnet.vn^
 ||porn99.net^$third-party
-||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com
+||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com|keonhacai.com|bongdaup.com|tv.101vn.com
 ||pr-quangcao.edu.vn^
 ||projectwonderful.com^
 ||propellerads.com^
@@ -796,10 +777,10 @@ yts/swfbin/player-vfl*/ad*.swf
 ||rarenok.biz^
 ||realer.info^
 ||realmadrid.com.vn/img/bg*
-||realmadrid.com.vn/img/m88.gif
 ||rev2pub.com^
 ||reviveservers.com^
 ||revsci.net^
+||rhcloud.com^$third-party,domain=tv.101vn.com
 ||riverbanksand.com^
 ||rmbn.net^
 ||rtbclick.net^$third-party
@@ -934,6 +915,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zaloapp.com^$third-party
 ||zedo.com^
+||lazada.website^
+||htvonline.com.vn/layout/images/*.jpg
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
