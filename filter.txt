@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-17T01:00:05-04:00
+! Last modified: 2015-05-18T01:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -171,7 +171,7 @@ phienbanmoi.com###uix_welcomeBlock
 phienbanmoi.com##[href^="http://donghohoangkim.vn/"]
 phim16.com###mask
 phim16.com##[id^="adMarx"]
-phimhd.vn###floatleft
+phimhd.vn###body ~ *
 phongvu.vn###divBannerFloatLeft
 phongvu.vn###divBannerFloatRight
 phongvu.vn##.banner
@@ -309,6 +309,7 @@ zippyshare.com##.center_ad
 /jquery.bpopup.min.js
 /jquery.popupWindow.js
 /jquery.smart*banner.
+/js/light.js?*$domain=vipphim.net|tvhay.org
 /jspopup.js
 /letsop-
 /log.
@@ -640,6 +641,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hanoicomputer.vn/media/banner/*.jpg
 ||hayhaytv.com/layout/js/ab_replace/*
 ||hayhaytv.vn/vod/*
+||hayhehe.com^$third-party
 ||hdonline.vn/frontend/wiget/*
 ||hdonline.vn/pop-up-
 ||hdviet.com/v2/js/hdv.v2.event.min.js?*
@@ -647,6 +649,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||histats.com^
 ||horsered.com^
 ||hotso1.com^$third-party
+||htvonline.com.vn/layout/images/*.jpg
 ||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|tv.101vn.com|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info
 ||igo.5giay.vn/changebanner/mBanner
 ||img.thiendia.com/*.gif
@@ -661,12 +664,14 @@ yts/swfbin/player-vfl*/ad*.swf
 ||ixinh.net^$popup,third-party
 ||jscount.com^
 ||juicyads.com^
+||kenhtin365.info^$third-party
 ||khoavang24h.com^$third-party
 ||kliksaya.com^
 ||kontera.com^
 ||lavanetwork.net^
 ||lazada.go2cloud.org^$third-party
 ||lazada.vn^$third-party
+||lazada.website^
 ||lgviet.com/forum/bannerscript.js
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
@@ -689,6 +694,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||mgid.com^
 ||mho.vn^$popup,third-party
 ||miaozhen.com^$third-party
+||mibet.com^$popup,third-party,script
 ||microad.net^
 ||microadinc.com^
 ||mint.frzz.net^
@@ -762,7 +768,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||purgrobi.com^
 ||putags.com^
 ||qc.5giay.vn^
-||qc.mibet.com^$popup,third-party,script
 ||qc.tclup.com^$third-party
 ||qc.yan.vn^
 ||quachdaica.net/*/qdc*
@@ -906,6 +911,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||yadro.ru^
 ||yan.vn/*images/cudem*
 ||yan.vn/yanimages/like_yannews*
+||yashilong.info^$third-party
 ||yceml.net^
 ||yllix.com^
 ||yomedia.vn^
@@ -915,8 +921,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zaloapp.com^$third-party
 ||zedo.com^
-||lazada.website^
-||htvonline.com.vn/layout/images/*.jpg
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
