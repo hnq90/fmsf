@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-19T01:00:03-04:00
+! Last modified: 2015-05-20T01:00:06-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -264,6 +264,9 @@ youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
+-quang-cao/
+/js/pov.js
+/ptracking?*
 -ads/
 -banner/
 .com/qc/*
@@ -304,6 +307,7 @@ zippyshare.com##.center_ad
 /facebook-popup-box/*
 /floatads.js?*
 /gamead/*
+/gen_204?*
 /generate_204
 /itro-popup/*
 /jquery.bpopup.min.js
@@ -386,6 +390,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vipphim.net/ads/xemphim.png
 @@||weather.channelvn.net^
+@@||youtube.com/api/stats/atr?*
 ! ====================== Third-party adverts and trackers =====================
 |http://u.to^$popup,domain=vietcago.com
 ||*-ad.24hstatic.com^
@@ -583,7 +588,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||docbao.vn/images/bagiang.swf
 ||donate-*.info^
 ||donghohoangkim.vn^$domain=phienbanmoi.com
-||doubleclick.net^$script,object,subdocument,xmlhttprequest,object-subrequest,popup,third-party
+||doubleclick.net^$script,image,object,subdocument,xmlhttprequest,object-subrequest,popup,third-party
 ||doublepimp.com^
 ||dpstatic.com^
 ||dramafull.com^
@@ -888,7 +893,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||vietnamnetad.vn^
 ||viglink.com^	
 ||vivo.vn/skin/js/ova-jquery.js
-||vkool.net/js/pov.js
 ||vnpgroup.net^$third-party
 ||vnreview.vn/*/sh_
 ||vnreview.vn/play-clip/*
@@ -921,6 +925,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zaloapp.com^$third-party
 ||zedo.com^
+||heyphim.com/img/*.gif|
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
