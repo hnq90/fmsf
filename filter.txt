@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-23T01:00:03-04:00
+! Last modified: 2015-05-24T01:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -21,6 +21,7 @@
 ##[id^="div-gpt-ad"]
 ##[id^='divAd']
 ! ========================= Element Hiding Exception ==========================
+@@||cadviet.vn$elemhide
 chotot.vn,xuanvinh.vn#@#[class^="ad-"]:not(.ad-skin)
 eva.vn,gamek.vn,techz.vn,dantri.com.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
@@ -264,6 +265,7 @@ youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
+/js/pop-
 -quang-cao/
 /js/pov.js
 /ptracking?*
