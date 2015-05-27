@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-26T01:00:05-04:00
+! Last modified: 2015-05-27T01:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -314,7 +314,6 @@ zippyshare.com##.center_ad
 /generate_204
 /itro-popup/*
 /jquery.bpopup.min.js
-/jquery.popupWindow.js
 /jquery.smart*banner.
 /js/light.js?*$domain=vipphim.net|tvhay.org
 /jspopup.js
@@ -929,6 +928,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||zedo.com^
 ||heyphim.com/img/*.gif|
 ||tamdaoky.vn^$third-party
+||chiasenhac.com/banner/*
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
