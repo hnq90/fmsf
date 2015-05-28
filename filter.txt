@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-27T01:00:04-04:00
+! Last modified: 2015-05-28T01:00:03-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -811,7 +811,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||sieumua.com^$third-party
 ||skimresources.net^
 ||skylink.vn^
-||skypeassets.com^$third-party
+||skypeassets.com^$third-party,domain=~skype.com
 ||sociomantic.com^
 ||sohot.vn^$third-party
 ||somo.vn^$popup,third-party
