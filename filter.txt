@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-28T01:00:03-04:00
+! Last modified: 2015-05-29T01:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -27,7 +27,7 @@ eva.vn,gamek.vn,techz.vn,dantri.com.vn#@#[class^="ads"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
 hdvietnam.com#@#[id^="div-gpt-ad"]
-yeah1.com,phim3s.net,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
+yeah1.com,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
 xemgame.com##.execphpwidget
 24h.com.vn###ReplayAd
@@ -373,7 +373,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||foody.vn/biz_banner/*foody-banner*
 @@||forum.360kpop.com/js/dc/banner/jquery.nivo.slider.pack.js?*
 @@||hayhaytv.com/advertisement.js?*
-@@||hayhaytv.vn/advertise/*-BANNER%20QUANG%20CAO%20NHA-XE-03.jpg
+@@||hayhaytv.vn/advertise/*-vib_hayhaytv.jpg
 @@||hdonline.vn/*/video?*
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
 @@||img.thethaotv.vn^$domain=bongdaup.com
@@ -929,6 +929,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||heyphim.com/img/*.gif|
 ||tamdaoky.vn^$third-party
 ||chiasenhac.com/banner/*
+||awltovhc.com^$third-party
+||phim3s.net/ad/*
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
