@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-05-30T01:00:03-04:00
+! Last modified: 2015-05-31T01:00:05-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -360,7 +360,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*
-@@||apis.google.com/js/plusone.js$domain=doko.vn
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
 @@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js$domain=tiki.vn
@@ -502,7 +501,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||amung.us^
 ||anthill.vn^
 ||api.nas.nct.vn/crossdomain.xml
-||apis.google.com/js/plusone.js
 ||apple8.com.vn/?*$popup,third-party
 ||assets.voz.vn/ga/*
 ||asto-exo.com^$third-party
@@ -631,7 +629,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||girlxinh.gocchiase.vn^$popup,third-party
 ||goo.gl^$popup,domain=blogtruyen.com|videomega.tv|be69.net
 ||google-analytics.com^
-||google.com/*+1/*
 ||google.com/ads*
 ||google.com/pagead/*
 ||googleadservices.com^
@@ -640,7 +637,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||googletagservices.com^
 ||googleusercontent.com^$image,domain=thiendia.com|tivi24h.com|cvt.vn
 ||gsspcln.jp^
-||gstatic.com/images/icons/gplus$image
 ||gstatic.com/pub-config/ca-pub*
 ||hai360.vn/skin/web/*custombox*
 ||haivk.net^$third-party
