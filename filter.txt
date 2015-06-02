@@ -3,12 +3,12 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-01T01:00:05-04:00
+! Last modified: 2015-06-02T02:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
 ##.ad
-##.advertisement
+##[class^="advertise"]
 ##[class^="ad-"]:not(.ad-skin)
 ##[class^="ad_"]:not(body)
 ##[class^="ads"]
@@ -19,7 +19,7 @@
 ##[id^="ads"]
 ##[id^="balloon"]
 ##[id^="div-gpt-ad"]
-##[id^='divAd']
+##[id^="divAd"]
 ! ========================= Element Hiding Exception ==========================
 @@||cadviet.vn$elemhide
 chotot.vn,xuanvinh.vn#@#[class^="ad-"]:not(.ad-skin)
@@ -29,6 +29,7 @@ movies.hdviet.com#@##sponsorText
 hdvietnam.com#@#[id^="div-gpt-ad"]
 yeah1.com,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
+xahoithongtin.com.vn##.rightCol > .mod.adSlot
 xemgame.com##.execphpwidget
 24h.com.vn###ReplayAd
 24h.com.vn##[class*="banner"]
@@ -354,9 +355,10 @@ yts/swfbin/player-vfl*/ad*.swf
 @@/WebtrethoTV/js/ads.js
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
+@@||vtc.vn/*/views/common/popup.js|
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
-@@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn
+@@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn|kites.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*
@@ -392,6 +394,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||vipphim.net/ads/xemphim.png
 @@||weather.channelvn.net^
 @@||youtube.com/api/stats/atr?*
+@@||youtube.com/api/stats/playback?*
 ! ====================== Third-party adverts and trackers =====================
 |http://u.to^$popup,domain=vietcago.com
 ||*-ad.24hstatic.com^
@@ -927,6 +930,10 @@ yts/swfbin/player-vfl*/ad*.swf
 ||chiasenhac.com/banner/*
 ||awltovhc.com^$third-party
 ||phim3s.net/ad/*
+||kites.vn/lib/video-js/*vast*
+||xahoithongtin.com.vn/upload/*
+||xahoithongtin.com.vn/*.swf|
+||xahoithongtin.com.vn/images/*.gif|
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
