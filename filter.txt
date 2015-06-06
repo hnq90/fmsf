@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-05T02:00:04-04:00
+! Last modified: 2015-06-06T02:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -210,8 +210,6 @@ thamhue.com###sidebar
 thamhue.vn,thamhue.com.vn###sidebar
 thamhue.vn,thamhue.com.vn###vsa_fh_stats table tr:first-child td:last-child
 thanhnien.com.vn##.qc-Container.bg-Container
-thiendia.com###posts > div:first-child > br + *
-thiendia.com##.page > [align="left"] > CENTER TR:first-child
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.topBanner
 tinthethao.com.vn###letsop-sportgame
@@ -749,7 +747,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||photobucket.com/*sonyvietmedia/
 ||phunucuoi.com^$third-party
 ||picadmedia.com^
-||pictureshoster.com^$domain=thiendia.com
 ||pinterest.com^$third-party
 ||pixfuture.net^
 ||plarium.com^$popup
@@ -880,7 +877,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||unibet.com^$third-party
 ||up-anh.ssc.vn^$domain=thamhue.com.vn|thamhue.vn
 ||upanh123.com^$popup,third-party
-||upload69.net/images/83eja29kbksrnfpv65d5.gif
+||upload69.net/images/02233437989434581224.jpg
+||upload69.net/images/72675236784064221374.gif
 ||upsieutoc.com^$domain=ketqua.net|tructiepbongda.com
 ||userreport.com^
 ||v8l.info^
