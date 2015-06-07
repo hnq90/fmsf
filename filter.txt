@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-06T02:00:04-04:00
+! Last modified: 2015-06-07T02:00:05-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -24,13 +24,11 @@
 @@||cadviet.vn$elemhide
 chotot.vn,xuanvinh.vn#@#[class^="ad-"]:not(.ad-skin)
 eva.vn,gamek.vn,techz.vn,dantri.com.vn#@#[class^="ads"]
+hdvietnam.com#@#[id^="div-gpt-ad"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
-hdvietnam.com#@#[id^="div-gpt-ad"]
 yeah1.com,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
-xahoithongtin.com.vn##.rightCol > .mod.adSlot
-xemgame.com##.execphpwidget
 24h.com.vn###ReplayAd
 24h.com.vn##[class*="banner"]
 24h.com.vn,eva.vn###linkbg1
@@ -210,6 +208,7 @@ thamhue.com###sidebar
 thamhue.vn,thamhue.com.vn###sidebar
 thamhue.vn,thamhue.com.vn###vsa_fh_stats table tr:first-child td:last-child
 thanhnien.com.vn##.qc-Container.bg-Container
+thiendia.com##.sidebar > a
 thongtincongnghe.com##.scroller-sidebar
 tinhte.vn##.topBanner
 tinthethao.com.vn###letsop-sportgame
@@ -246,6 +245,8 @@ vozforums.com##TD[width="160"]
 vuiviet.com.vn##.container.hidesmall
 vuiviet.com.vn##DIV[style*="width:300px; height:150px; background:#ddd;"]
 whitehat.vn###fanback
+xahoithongtin.com.vn##.rightCol > .mod.adSlot
+xemgame.com##.execphpwidget
 xemthethao.vn##.xtt-live-box-btn-left
 xemtiviso.com##.quangcao
 xemtiviso.com##.tab-kenh
@@ -265,12 +266,9 @@ youtube.com###video-masthead
 youtube.com###watch7-sidebar-ads
 zippyshare.com##.center_ad
 ! ============================== General adverts ==============================
-/js/pop-
--quang-cao/
-/js/pov.js
-/ptracking?*
 -ads/
 -banner/
+-quang-cao/
 .com/qc/*
 .mp4|$object-subrequest,domain=movies.hdviet.com
 .net/qc/*
@@ -315,6 +313,8 @@ zippyshare.com##.center_ad
 /jquery.bpopup.min.js
 /jquery.smart*banner.
 /js/light.js?*$domain=vipphim.net|tvhay.org
+/js/pop-
+/js/pov.js
 /jspopup.js
 /letsop-
 /log.
@@ -332,12 +332,14 @@ zippyshare.com##.center_ad
 /popup_
 /promotions/*
 /ptracking/*
+/ptracking?*
 /quang-cao/*
 /quangcao.
 /quangcao/*
 /rhpop_
 /smartbanner/*
 /thvpopup.js
+/track.
 /tracking.
 /tracking/*
 /traffic.php
@@ -353,11 +355,11 @@ yts/swfbin/player-vfl*/ad*.swf
 @@/WebtrethoTV/js/ads.js
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
-@@||vtc.vn/*/views/common/popup.js|
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
 @@||adnetwork.vn^$domain=tv.tuoitre.vn|talktv.vn|kites.vn
 @@||ads.tinmoi.vn^$domain=tinmoi.vn
+@@||adserver.yahoo.com^$xmlhttprequest,domain=yahoo.com
 @@||api.adtimaserver.vn/crossdomain.xml
 @@||api.adtimaserver.vn/zad/*
 @@||blueserving.com/crossdomain.xml$domain=hdviet.com
@@ -382,7 +384,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||phim3s.net/player-ads/*
 @@||phongvu.vn/gallery/avatar_upload/ads/*.swf
 @@||pq-direct.revsci.net^$domain=vivo.vn
-@@||s.yimg.com/zz/combo?nq/s/a/style_*.css
 @@||statcounter.com/counter/counter.js$domain=xuanvinh.vn
 @@||stream.adtimaserver.vn^$domain=talktv.vn
 @@||thamhue.com/images/ads/lgthamhue1.gif
@@ -390,7 +391,9 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||tracking.gfycat.com^
 @@||videomega.tv/vjs/plugin/css/ads.css
 @@||vipphim.net/ads/xemphim.png
+@@||vtc.vn/*/views/common/popup.js|
 @@||weather.channelvn.net^
+@@||yimg.com/zz/combo?*
 @@||youtube.com/api/stats/atr?*
 @@||youtube.com/api/stats/playback?*
 ! ====================== Third-party adverts and trackers =====================
@@ -506,6 +509,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||assets.voz.vn/ga/*
 ||asto-exo.com^$third-party
 ||atdmt.com^
+||awltovhc.com^$third-party
 ||b.123c.vn/zad/videoad?*
 ||backlinks365.com^
 ||banbe.net^$third-party
@@ -549,6 +553,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||chanlong.info^$popup
 ||channelvn.net^
 ||chartbeat.com^
+||chiasenhac.com/banner/*
 ||chitika.net^
 ||chungthuconline.com$popup,third-party
 ||click.xdeal.vn/adssite/*
@@ -649,6 +654,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||hdonline.vn/frontend/wiget/*
 ||hdonline.vn/pop-up-
 ||hdviet.com/v2/js/hdv.v2.event.min.js?*
+||heyphim.com/img/*.gif|
 ||hihe.vn^$third-party
 ||histats.com^
 ||horsered.com^
@@ -670,6 +676,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||juicyads.com^
 ||kenhtin365.info^$third-party
 ||khoavang24h.com^$third-party
+||kites.vn/lib/video-js/*vast*
 ||kliksaya.com^
 ||kontera.com^
 ||lavanetwork.net^
@@ -736,6 +743,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||paragonads.vn^
 ||pcworld.com.vn/files/advertising/*
 ||phcarevietnam.com.vn^$third-party
+||phim3s.net/ad/*
 ||phim69.us^$third-party
 ||phimchieurap.vn^$third-party
 ||phimmoi.net^$third-party
@@ -760,6 +768,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||popnet.vn^
 ||porn99.net^$third-party
 ||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com|keonhacai.com|bongdaup.com|tv.101vn.com
+||postimg.org/*/vimax*.jpg
 ||pr-quangcao.edu.vn^
 ||projectwonderful.com^
 ||propellerads.com^
@@ -828,6 +837,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||taiiwin.net^
 ||takataka.vn^
 ||talktv.vn/resource/third-party/jwplayer/*.png
+||tamdaoky.vn^$third-party
 ||tamquoctutien.com^$popup,third-party
 ||tanx.com^$third-party
 ||taobao.com^$subdocument,domain=soduso.com
@@ -904,6 +914,9 @@ yts/swfbin/player-vfl*/ad*.swf
 ||webtrends.com^
 ||widgets.outbrain.com/OutbrainRater.js
 ||wwwpromoter.com^
+||xahoithongtin.com.vn/*.swf|
+||xahoithongtin.com.vn/images/*.gif|
+||xahoithongtin.com.vn/upload/*
 ||xembongda24h.com/templates/xbd/js/qc-vbd.js
 ||xemphimso.com/img/*$third-party,image,object
 ||xemphimso.com/img/*.swf
@@ -923,15 +936,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtube.com/gen_*?a=resolution&width=*
 ||youtv.vn/upload/*.swf
 ||zedo.com^
-||heyphim.com/img/*.gif|
-||tamdaoky.vn^$third-party
-||chiasenhac.com/banner/*
-||awltovhc.com^$third-party
-||phim3s.net/ad/*
-||kites.vn/lib/video-js/*vast*
-||xahoithongtin.com.vn/upload/*
-||xahoithongtin.com.vn/*.swf|
-||xahoithongtin.com.vn/images/*.gif|
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
