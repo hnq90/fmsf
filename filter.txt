@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-11T02:00:04-04:00
+! Last modified: 2015-06-12T02:00:03-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -664,6 +664,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|tv.101vn.com|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info
 ||igo.5giay.vn/changebanner/mBanner
 ||img.thiendia.com/*.gif
+||img.thiendia.com/server6/images/24730452312106354556.jpg
 ||infogame.vn/*swf
 ||infolinks.com^
 ||innity.com^
@@ -769,7 +770,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||popnet.vn^
 ||porn99.net^$third-party
 ||postimg.org/*.gif$domain=thiendia.com|tructiepbongda.com|keonhacai.com|bongdaup.com|tv.101vn.com
-||postimg.org/*/vimax*.jpg
 ||pr-quangcao.edu.vn^
 ||projectwonderful.com^
 ||propellerads.com^
@@ -888,8 +888,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||unibet.com^$third-party
 ||up-anh.ssc.vn^$domain=thamhue.com.vn|thamhue.vn
 ||upanh123.com^$popup,third-party
-||upload69.net/images/02233437989434581224.jpg
-||upload69.net/images/72675236784064221374.gif
+||upload69.net/images/*.gif|
 ||upsieutoc.com^$domain=ketqua.net|tructiepbongda.com
 ||userreport.com^
 ||v8l.info^
@@ -938,6 +937,10 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtv.vn/upload/*.swf
 ||zedo.com^
 ||blogtruyen.com/file/random-vng-pop.html$popup
+||websitedhoome.com^$popup,third-party
+||oclaserver.com^$third-party
+||smail188.com^$third-party
+||freeimgshost.com/fullsize/d4k2rr0idbpm3ledhhr.jpg$domain=thiendia.com
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
