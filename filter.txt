@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-15T02:00:02-04:00
+! Last modified: 2015-06-16T02:00:05-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -688,7 +688,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||lgviet.com/forum/bannerscript.js
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
-||linkneverdie.com/js/audio3_html5.js
+||linkneverdie.com/audio/*
 ||linktocdo.com/hotro/hinhanh/*x*.gif
 ||linktocdo.com/hotro/hinhanh/banner*
 ||linktocdo.com/hotro/hinhanh/lienhequangcao.jpg
@@ -942,6 +942,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||smail188.com^$third-party
 ||freeimgshost.com/fullsize/d4k2rr0idbpm3ledhhr.jpg$domain=thiendia.com
 ||upfile.vn/view/default/image/index-*.gif|
+||thegioigame.vn^$popup,third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
