@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-16T02:00:05-04:00
+! Last modified: 2015-06-17T02:00:03-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -884,7 +884,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tvtructuyen.net/2lk.html
 ||tvtructuyen.net/4lk.html
 ||tynt.com^
-||uniad.vn^
+||uniad.
 ||unibet.com^$third-party
 ||up-anh.ssc.vn^$domain=thamhue.com.vn|thamhue.vn
 ||upanh123.com^$popup,third-party
