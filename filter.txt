@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-22T02:00:04-04:00
+! Last modified: 2015-06-23T02:00:03-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -29,6 +29,9 @@ inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
 yeah1.com,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
+phim.tiengnga.net###exposeMask
+phim.tiengnga.net##.errorOverlay
+phim.tiengnga.net##.sectionMain.funbox
 24h.com.vn###ReplayAd
 24h.com.vn##[class*="banner"]
 24h.com.vn,eva.vn###linkbg1
@@ -336,6 +339,7 @@ zippyshare.com##.center_ad
 /quang-cao/*
 /quangcao.
 /quangcao/*
+/rellect/AdblockDetector/*
 /rhpop_
 /smartbanner/*
 /thvpopup.js
@@ -625,7 +629,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||fulldl.net^
 ||galaxypub.vn^$third-party,~image,~object-subrequest
 ||game-advertising-online.com^
-||gamesupport.vn/js/rellect/AdblockDetector/*
 ||gammaplatform.com/js/ad-exchange.js
 ||genericsteps.com^
 ||get.*.website^
@@ -943,6 +946,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||freeimgshost.com/fullsize/d4k2rr0idbpm3ledhhr.jpg$domain=thiendia.com
 ||upfile.vn/view/default/image/index-*.gif|
 ||thegioigame.vn^$popup,third-party
+||phim.tiengnga.net/js/VietXfAdvStats/*
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
