@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-06-29T02:00:04-04:00
+! Last modified: 2015-06-30T02:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -23,7 +23,7 @@
 ! ========================= Element Hiding Exception ==========================
 @@||cadviet.vn$elemhide
 chotot.vn,xuanvinh.vn#@#[class^="ad-"]:not(.ad-skin)
-eva.vn,gamek.vn,techz.vn,dantri.com.vn#@#[class^="ads"]
+eva.vn,gamek.vn,techz.vn,dantri.com.vn,asianwiki.com#@#[class^="ads"]
 hdvietnam.com#@#[id^="div-gpt-ad"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
@@ -80,7 +80,6 @@ comicvn.net##.modal-backdrop
 comicvn.net##[class^="banner"]
 comicvn.net##[id^="banner"]
 congan.com.vn##[width="400"] > TBODY > TR > TD[height="50"][align="center"]
-cpanel.freevnn.com###gettingstarted_win_c
 cvt.vn###block_html_1
 dailo.vn##.banner > .fr
 dailo.vn##A[href^="/AdvRedirect.aspx?advid"]
@@ -182,7 +181,6 @@ phongvu.vn##.banner
 platinumcineplex.vn##[id^="fancybox"]
 playpark.vn##.hadvbanner
 playpark.vn##[id$="RBanner"]
-quachdaica.net###fl813692
 quantrimang.com.vn###socialsharebar
 ragezone.com##.rzone_ads
 ragezone.com##.social-counter
@@ -260,9 +258,6 @@ yan.vn###ucFacebook200
 yan.vn###wrapper_banner_top
 yan.vn##.btnShareInside
 yan.vn##.container div[class*="dvHeight"]
-yan.vn##DIV[style*="images/cudem"]
-yan.vn##DIV[style*="images/like_yannews"]
-yan.vn##DIV[style^="border: 2px solid #ed2d2d;"]
 yeah1.com##.tn-sharepost.hh-sharepost
 youtube.com###feed-pyv-container
 youtube.com###video-masthead
@@ -479,17 +474,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adriver.ru^
 ||adroll.com^
 ||adrotator.se^$popup,script,image,stylesheet
-||adsafeprotected.com^
-||adserve.postrelease.com^
+||ads*.com^
 ||adserver.
-||adservingsolutionsinc.com^
-||adshexa.com^
-||adshost*.com^
-||adsonar.com^
-||adsquangcao.com^
-||adsterra.com^
-||adsupply.com^
-||adsvids.com^
 ||adsvn.ga^
 ||adsyst.biz^
 ||adtechus.com^$third-party
@@ -497,10 +483,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adtop.vn^
 ||adultadworld.com^
 ||adv.thethaovanhoa.vn^
-||adversal.com^
-||advert*.com^
-||adx.kul.vn^
-||adx.vn^
+||adver*.com^
+||adx.*vn^$third-party
 ||adxpansion.com^
 ||adzerk.net^
 ||aff.opus-static.com^
@@ -578,11 +562,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||contextweb.com^
 ||coremetrics.com^
 ||coupon5s.com^
-||cpmleader.com^
-||cpmstar.com^
-||cpmterra.com^
-||criteo.com^
-||criteo.net^
+||cpm*.com^$third-party
+||criteo.$third-party
 ||crwdcntrl.net^
 ||cxense.com^
 ||cydia.vn^$third-party
@@ -608,8 +589,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||dulichdatviet.info^$third-party
 ||dynamicoxygen.com^
 ||ebz.io^
-||eclick.baidu.com^$third-party
-||eclick.vn^
+||eclick.$third-party
 ||effectivemeasure.net^
 ||eqads.com^
 ||ertosatie.com^
@@ -672,8 +652,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||img.thiendia.com/server6/images/24730452312106354556.jpg
 ||infogame.vn/*swf
 ||infolinks.com^
-||innity.com^
-||innity.net^
+||innity.$third-party
 ||insta-cash.net^
 ||intellitxt.com^
 ||invitemedia.com^
@@ -687,9 +666,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||kliksaya.com^
 ||kontera.com^
 ||lavanetwork.net^
-||lazada.go2cloud.org^$third-party
-||lazada.vn^$third-party
-||lazada.website^
+||lazada.$third-party
 ||lgviet.com/forum/bannerscript.js
 ||like.vn^$popup,third-party
 ||linkhay.com/actions/linkView/linkClick.php?*$popup,third-party
@@ -792,7 +769,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||qc.yan.vn^
 ||quachdaica.net/*/qdc*
 ||quachdaica.net/images/*.gif
-||quangcao.tuoitre.vn^
 ||quantserve.com^
 ||quensillo.com^$domain=mediafire.com
 ||ragezone.com/hf*
@@ -851,8 +827,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||tanx.com^$third-party
 ||taobao.com^$subdocument,domain=soduso.com
 ||tapchisao.vn^$third-party
-||thamhue.com.vn/ad/*
-||thamhue.vn/ad/*
+||thamhue.*vn/ad/*
 ||thecheapest-travel.com^$third-party
 ||thegioidaichien.com^$popup,third-party
 ||thegioigame.vn^$popup,third-party
@@ -862,7 +837,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||thongke.24h.com.vn^
 ||thongtincongty.com/fancybox/*
 ||thongtincongty.com/qctruot.js
-||thosankhonggian.com^$popup
+||thosankhonggian.com^$popup,third-party
 ||thoughtleadr.com^
 ||tidaltv.com^
 ||tintructuyen1.info^$third-party
@@ -936,8 +911,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||xonefm.com/media/*.swf
 ||xtendadvert.com^$third-party
 ||yadro.ru^
-||yan.vn/*images/cudem*
-||yan.vn/yanimages/like_yannews*
 ||yashilong.info^$third-party
 ||yceml.net^
 ||yllix.com^
