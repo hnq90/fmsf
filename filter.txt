@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-07-08T02:00:03-04:00
+! Last modified: 2015-07-09T02:00:03-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -351,6 +351,9 @@ assets/pub/shareaholic*
 searchTrack.php?
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
+@@||hayhaytv.vn/vod/player_ads/*
+@@||adnetwork.vn^$domain=hayhaytv.vn
+@@||serving-sys.com^$domain=hayhaytv.vn
 @@/WebtrethoTV/js/ads.js
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
