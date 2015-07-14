@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-07-13T02:00:04-04:00
+! Last modified: 2015-07-14T02:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -29,6 +29,7 @@ inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
 yeah1.com,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
+diendanvetinh.com.vn##TD[width="100%"] > .forumline:first-child
 24h.com.vn###ReplayAd
 24h.com.vn##[class*="banner"]
 24h.com.vn,eva.vn###linkbg1
@@ -632,7 +633,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||googleusercontent.com^$image,domain=thiendia.com|tivi24h.com|cvt.vn
+||googleusercontent.com^$image,domain=thiendia.com|tivi24h.com|cvt.vn|diendanvetinh.com.vn
 ||gsspcln.jp^
 ||gstatic.com/pub-config/ca-pub*
 ||hai360.vn/skin/web/*custombox*
@@ -925,6 +926,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||youtube.com/gen_*?a=resolution&width=*
 ||youtv.vn/upload/*.swf
 ||zedo.com^
+||delnapb.com^$third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
