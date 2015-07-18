@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-07-17T02:00:04-04:00
+! Last modified: 2015-07-18T02:00:03-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -370,7 +370,7 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||blueserving.com/vast.xml?*$domain=movies.hdviet.com
 @@||cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js$domain=tiki.vn
 @@||cdn.turner.com/xslo/cvp/ads/freewheel/bundles/2/AdManager.swf?*
-@@||creative.adobe.com/ccmb906b12/resource/common/utils/log.js
+@@||creative.adobe.com/*/resource/common/utils/log.js
 @@||dmcdn.net/js/gen/widget/pack/popup.js.*
 @@||doko.vn/StaticDeploy/*/popup*
 @@||facebook.com/ajax/questions/popup.php?*
@@ -479,13 +479,13 @@ yts/swfbin/player-vfl*/ad*.swf
 ||adrich.cash^
 ||adriver.ru^
 ||adroll.com^
-||adrotator.se^$popup,script,image,stylesheet
-||ads*.com^
+||adrotator.se^$popup,script,image
+||ads*.com^$third-party,script,image,subdocument,popup
 ||adserver.
 ||adsvn.ga^
 ||adsyst.biz^
 ||adtechus.com^$third-party
-||adtimaserver.vn^$script,image,object,subdocument,object-subrequest,xmlhttprequest,popup
+||adtimaserver.vn^$script,image,subdocument,object-subrequest,xmlhttprequest,popup
 ||adtop.vn^
 ||adultadworld.com^
 ||adv.thethaovanhoa.vn^
@@ -599,7 +599,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||effectivemeasure.net^
 ||eqads.com^
 ||ertosatie.com^
-||exoclick.com^$popup,script,image,stylesheet
+||exoclick.com^$popup,script,image
 ||exponential.com^
 ||extreme-dm.com^$third-party
 ||fakebook.vn^$popup
