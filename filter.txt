@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-07-18T02:00:03-04:00
+! Last modified: 2015-07-19T02:00:04-04:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -27,7 +27,7 @@ eva.vn,gamek.vn,techz.vn,dantri.com.vn,asianwiki.com#@#[class^="ads"]
 hdvietnam.com#@#[id^="div-gpt-ad"]
 inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
-yeah1.com,x-rates.com,kissanime.com,classical-pippo9.blogspot.com#@#[id^="ads"]
+yeah1.com,x-rates.com,kissanime.com,classical-pippo9.blogspot.com,gameapks.com#@#[id^="ads"]
 ! ========================== Element Hiding Per Site ==========================
 diendanvetinh.com.vn##TD[width="100%"] > .forumline:first-child
 24h.com.vn###ReplayAd
@@ -928,6 +928,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||zedo.com^
 ||delnapb.com^$third-party
 ||ad.accesstrade.vn^$third-party
+||pioneeringad.com^$third-party
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
