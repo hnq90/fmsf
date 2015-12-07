@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-12-02T18:44:18+07:00
+! Last modified: 2015-12-07T23:46:27+07:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -959,6 +959,8 @@ yts/swfbin/player-vfl*/ad*.swf
 ||macintosh.vn/forum/image/*.jpg?rand=*
 ||topdev.vn^$third-party
 ||giaitriviet.net.vn/gtvpopup.js
+||truyentranhtuan.com/wp-content/banners/*
+||gamehub.vn/img/files/*.gif|
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
@@ -1004,6 +1006,10 @@ facebook.com##.mbm._43rz + .uiList > ._43s1
 facebook.com##.mbm._43rz + .uiList + .uiList
 facebook.com##.mbm > ._5pcr > .mbs + ._43r- > .uiList
 facebook.com##.mbm > ._5pcr > .mbs
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg > ._5x46 > A[href="https://www.facebook.com/games/"]
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg ._50z3 > ._50zm
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg > ._5x46 > ._3dp._29k > DIV > ._5pbw > .fsl.fwb.fcb
+facebook.com##DIV[id^="topnews_main_stream_"] .userContentWrapper > ._1dwg > ._5x46 > ._3dp._29k > DIV > ._5pbw + .uiLinkSubtle[href="https://www.facebook.com/games/"]
 ! "People you may know"
 facebook.com###stream_pagelet > #pagelet_composer + ._4-u2._2ph_._3-95
 ! Other
