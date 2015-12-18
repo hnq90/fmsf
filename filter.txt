@@ -3,7 +3,7 @@
 ! Title: FMSF 2.0
 ! Expires: 1 days
 ! Version: 2.0
-! Last modified: 2015-12-07T23:46:27+07:00
+! Last modified: 2015-12-18T09:08:07+07:00
 ! ============================== Different ====================================
 ###bar_float
 ##.above-player
@@ -30,6 +30,8 @@ inbox.google.com#@#.ad
 movies.hdviet.com#@##sponsorText
 x-rates.com,classical-pippo9.blogspot.com,gameapks.com#@#[id^="ads"]:not(#adsIfrme)
 ! ========================== Element Hiding Per Site ==========================
+gamehub.vn##.portal_ads_scroll
+cvt.vn##.rightleftads
 taisachhay.com###footer ~ div
 macintosh.vn###dg-container
 macintosh.vn###k_menu_div ~ a
@@ -352,12 +354,13 @@ searchTrack.php?
 yts/swfbin/player-vfl*/ad*.swf
 ! ================================= Whitelists ================================
 !@@||hayhaytv.vn/ads_vast/*
+@@||thethaohd.net/static/themes/front/js/jquery-*
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js|$domain=tv.zing.vn
 @@||lazada.vn/js/tracking.js|
 @@/WebtrethoTV/js/ads.js
 @@/adsbygoogle.js$domain=hackintosh.zone
 @@/tb/tsrp/*$stylesheet,domain=s.taobao.com
-@@/themes/front/scripts/ads.js|
+@@/themes/front/*/ads.js
 @@||125.212.202.62/Statics/jwplayer/jwplayer.flash.swf
 @@||195.82.146.52/logo/*
 @@||ad.skylink.vn/tracking/*$domain=hdonline.vn
@@ -386,7 +389,6 @@ yts/swfbin/player-vfl*/ad*.swf
 @@||hayhaytv.vn/vod/*
 @@||hdonline.vn/*/video?*
 @@||hdviet.com/tools/adplayer/player/adsapi_3.swf
-@@||img.thethaotv.vn^$domain=bongdaup.com
 @@||kay.com.vn/IndexBanner/*
 @@||kay.com.vn/kay_v2/js/popup.js
 @@||kites.vn/library/video-js/videojs-contrib-ads/videojs.ads.min.js
@@ -551,7 +553,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||bongdatructuyen.vn/js/jquery.fancybox/*
 ||bongdatructuyen.vn/js/p0pundr.js
 ||bp.blogspot.com/*/banner.png|$domain=hamtruyen.vn
-||bp.blogspot.com/-*.gif|$domain=bongdatructuyen.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|phimhd.vn|xemthethao.vn|xembongda24h.com
+||bp.blogspot.com/-*.gif$domain=bongdatructuyen.vn|kenh60.net|vuiviet.com.vn|bongdainfo.com|kenh1.info|bongda60.com|phimhd.vn|xemthethao.vn|xembongda24h.com|ketqua.net
 ||buysellads.com^
 ||cachnuoicon.net^$popup,third-party
 ||cafecuoi.net/vote$popup
@@ -668,7 +670,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||horsered.com^
 ||hotso1.com^$third-party
 ||htvonline.com.vn/layout/images/*.jpg
-||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|tv.101vn.com|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info|tivi4k.net|macintosh.vn
+||i.imgur.com/*.gif$domain=8bongda.com|bongdatructuyen.info|tv.101vn.com|xemtiviso.com|bongdatv.net|forum.ketqua.net|mybongda.com|tvtructuyen.net|tivionline.vn|kenh1.info|tivi4k.net|macintosh.vn|cvt.vn
 ||igo.5giay.vn/changebanner/mBanner
 ||img.thiendia.com/*.gif
 ||img.thiendia.com/server6/images/36544130811320221574.jpg
@@ -860,7 +862,6 @@ yts/swfbin/player-vfl*/ad*.swf
 ||thecheapest-travel.com^$third-party
 ||thegioidaichien.com^$popup,third-party
 ||thegioigame.vn^$popup,third-party
-||thethaotv.vn^$third-party
 ||thiendia.com/slide/pop_in_bottom_page.*
 ||thietkeweb3d.com^$third-party
 ||thongdiepso.com^$third-party
@@ -961,6 +962,7 @@ yts/swfbin/player-vfl*/ad*.swf
 ||giaitriviet.net.vn/gtvpopup.js
 ||truyentranhtuan.com/wp-content/banners/*
 ||gamehub.vn/img/files/*.gif|
+||mangak.net/wp-content/themes/manga/ad/*
 !Facebook Filters
 ! Right sidebar
 ! Various suggestions/recommendations
